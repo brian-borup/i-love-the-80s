@@ -2,7 +2,9 @@
 
 A Progressive Web App party game, a sibling of Back Track: an 80s hit plays and everyone tries to name the artist.
 
-On an iPhone, open the app in Safari, tap **Share → Add to Home Screen**. It then runs full-screen. Games are saved only on the device.
+**Use it:** https://brian-borup.github.io/i-love-the-80s/
+
+On an iPhone, open that link in Safari, tap **Share → Add to Home Screen**. It then runs full-screen. Games are saved only on the device.
 
 ## Playing
 
