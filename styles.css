@@ -9,7 +9,7 @@
   --primary: #ff2e97;        /* hot pink for filled highlights */
   --primary-text: #24001a;   /* near-black reads well on the pink */
   --link: #5ce1ff;
-  --neon: #00e5ff;           /* electric cyan for band names */
+  --neon: #00e5ff;           /* electric cyan for artist names */
   --accent: #ffd319;         /* sunshine yellow for points */
   --good: #39ff88;
   --bad: #ff4d6d;
@@ -282,7 +282,7 @@ input[type="text"] {
 .song-text { min-width: 0; flex: 1; text-align: center; }
 .song-card.revealed .song-text { text-align: left; }
 .song-text p { margin: 0; }
-.song-band {
+.song-artist {
   font-size: 1.9rem;
   font-weight: 900;
   line-height: 1.1;
@@ -292,7 +292,7 @@ input[type="text"] {
 }
 .song-title { margin-top: 4px !important; font-weight: 600; }
 .song-year { color: var(--muted); font-variant-numeric: tabular-nums; }
-.song-card.revealed .song-band { animation: pop 0.4s ease-out; }
+.song-card.revealed .song-artist { animation: pop 0.4s ease-out; }
 @keyframes pop { 0% { transform: scale(0.6); opacity: 0; } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
 
 .player { display: grid; gap: 10px; justify-items: center; }
@@ -327,7 +327,7 @@ input[type="text"] {
 
 .panel-title { margin: 4px 0 8px; font-weight: 700; color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
 
-/* Pick the band */
+/* Pick the artist */
 .choices { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .choice {
   width: 100%;
@@ -342,7 +342,7 @@ input[type="text"] {
 .choices.locked .choice.right { opacity: 1; border-color: var(--good); color: var(--good); box-shadow: 0 0 12px rgb(57 255 136 / 0.4); animation: pop 0.4s ease-out; }
 .choices.locked .choice.wrong { opacity: 1; border-color: var(--bad); color: var(--bad); text-decoration: line-through; }
 
-/* Shout it out: tap everyone who named the band */
+/* Shout it out: tap everyone who got it right */
 .shout-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .shout {
   width: 100%;

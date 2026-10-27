@@ -1,7 +1,9 @@
 // Looks up each song in song-list.js on the iTunes Search API and writes
 // songs.js with its Apple Music track id, so the app plays the original
 // recording rather than a cover. Results are cached in ids-cache.json, so
-// re-running only looks up new songs.
+// re-running only looks up new songs. A song can name a fourth field, the
+// artist as Apple credits it, when that differs from the name we show (e.g.
+// "John Cougar" for John Mellencamp's early hits).
 //
 //   node tools/resolve-ids.js           (add --retry to search again for songs not found before,
 //                                        or --check to list what would be searched without searching)
@@ -25,6 +27,8 @@ const fullTitle = (t) => norm(t).replace(/^the /, '');
 const artistName = (a) => norm(a).replace(/^the /, '');
 const mainArtist = (a) => artistName(a.split(/ feat\. | & |, | and /i)[0]);
 const junk = /karaoke|tribute|cover|instrumental|in the style of|made famous|originally performed|8-bit|lullaby|piano version|workout/i;
+// Albums of live or re-recorded versions, whose track names often carry no label.
+const remade = /\blive\b|re-?record|concert|\bsessions\b|unplugged/i;
 
 async function search(term, extra = '&limit=50') {
   const url = `https://itunes.apple.com/search?entity=song&country=US${extra}&term=${encodeURIComponent(term)}`;
@@ -38,7 +42,7 @@ async function search(term, extra = '&limit=50') {
 }
 
 // Labels on a track name that still mean the original recording.
-const harmless = /^(\d{4} )?(digital(ly)? )?remaster(ed)?( \d{4})?( version)?$|^(single|album|radio|lp|original|7|7 inch|45|mono|stereo|original 45 single|explicit|clean)( version| edit| mix)?$|^radio edit$|^edit$|^feat |^with |^from |^the official .* song$/;
+const harmless = /^(\d{4} )?(digital(ly)? )?remaster(ed)?( \d{4})?( version)?$|^original recording( remastered)?$|^original( version)? \d{4}$|^((us|uk) )?(single|album|radio|lp|original|7|7 inch|45|mono|stereo|original 45 single|explicit|clean)( version| edit| mix)?$|^radio edit$|^edit$|^feat |^with |^from |^the official .* song$/;
 // Does this Apple track look like the plain, original version of our song?
 function accept(trackName, appleArtist, title, artist) {
   // Our main artist must appear in Apple's artist, e.g. "Buddy Holly & The Crickets".
@@ -46,7 +50,8 @@ function accept(trackName, appleArtist, title, artist) {
   const appleWords = ` ${artistName(appleArtist)} `;
   const ourWords = ` ${mainArtist(artist)} `;
   if (!appleWords.includes(ourWords) || appleWords.includes(`${ourWords}jr `)) return false;
-  if (junk.test(trackName)) return false;
+  // …unless the word is in our own title, like "Cover Me".
+  if (junk.test(trackName) && !junk.test(title)) return false;
   // Look at each bracketed label, and anything after " - ".
   const labels = [...trackName.matchAll(/[([]([^)\]]*)[)\]]/g)].map((m) => norm(m[1]));
   const [plain, ...dash] = unbracket(trackName).split(/ - /);
@@ -64,7 +69,8 @@ function accept(trackName, appleArtist, title, artist) {
 function pick(results, title, artist) {
   const matches = results.filter((r) => r.previewUrl && r.trackName && r.artistName
     && accept(r.trackName, r.artistName, title, artist)
-    && !junk.test(r.collectionName || ''));
+    && !junk.test(r.collectionName || '')
+    && !(remade.test(r.collectionName || '') && !remade.test(title)));
   // Prefer our artist first (a solo recording over a duet), then a track
   // name with no labels at all, then the earliest release.
   const duet = (r) => (artistName(r.artistName).startsWith(mainArtist(artist)) ? 0 : 1);
@@ -83,22 +89,22 @@ function cachedIsGood(c, title, artist) {
 
 (async () => {
   if (process.argv.includes('--check')) {
-    const redo = list.filter(([, t, a]) => !cachedIsGood(cache[`${t} — ${a}`], t, a))
+    const redo = list.filter(([, t, a, apple = a]) => !cachedIsGood(cache[`${t} — ${a}`], t, apple))
       .map(([, t, a]) => `${t} — ${a}   [cached: ${(cache[`${t} — ${a}`] || {}).found || 'nothing'}]`);
     console.log(`${redo.length} songs need a search:\n  ${redo.join('\n  ')}`);
     return;
   }
   const missing = [];
   const suspicious = [];
-  for (const [year, title, artist] of list) {
+  for (const [year, title, artist, apple = artist] of list) {
     const key = `${title} — ${artist}`;
     const c0 = cache[key];
-    if (!c0 || (c0.id && !cachedIsGood(c0, title, artist)) || (retryMisses && !c0.id)) {
-      let hit = pick(await search(`${baseTitle(title)} ${mainArtist(artist)}`), title, artist);
+    if (!c0 || (c0.id && !cachedIsGood(c0, title, apple)) || (retryMisses && !c0.id)) {
+      let hit = pick(await search(`${baseTitle(title)} ${mainArtist(apple)}`), title, apple);
       if (!hit) {
         // Remix singles can crowd out the original; search song titles alone, more widely.
         await sleep(3200);
-        hit = pick(await search(baseTitle(title), '&attribute=songTerm&limit=200'), title, artist);
+        hit = pick(await search(baseTitle(title), '&attribute=songTerm&limit=200'), title, apple);
       }
       cache[key] = hit
         ? { id: hit.trackId, released: hit.releaseDate.slice(0, 4), found: `${hit.trackName} — ${hit.artistName}` }

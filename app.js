@@ -29,7 +29,7 @@ const els = {
   cassette: $('#cassette'),
   tapeLabel: $('#tapeLabel'),
   art: $('#art'),
-  songBand: $('#songBand'),
+  songArtist: $('#songArtist'),
   songTitle: $('#songTitle'),
   songYear: $('#songYear'),
   playBtn: $('#playBtn'),
@@ -53,22 +53,22 @@ const els = {
 };
 
 // ---- Songs ----
-// SONGS (from songs.js) is a list of [year, title, band, appleTrackId].
+// SONGS (from songs.js) is a list of [year, title, artist, appleTrackId].
 
 const song = (i) => {
-  const [year, title, band, id] = SONGS[i];
-  return { year, title, band, id };
+  const [year, title, artist, id] = SONGS[i];
+  return { year, title, artist, id };
 };
-const BANDS = [...new Set(SONGS.map((s) => s[2]))];
+const ARTISTS = [...new Set(SONGS.map((s) => s[2]))];
 
 const ERAS = { all: [1980, 1989], early: [1980, 1984], late: [1985, 1989] };
 
-// Pick the band: rounds each player gets. Shout it out: songs in the game.
+// Pick the artist: rounds each player gets. Shout it out: songs in the game.
 const LENGTHS = { choice: [5, 10, 20], shout: [10, 20, 30] };
 
 const MODE_HELP = {
-  choice: 'Take turns picking the band from four choices. One point for each right answer.',
-  shout: 'Everyone shouts out the band. Reveal it, then tap who got it right.',
+  choice: 'Take turns picking the artist from four choices. One point for each right answer.',
+  shout: 'Everyone shouts out the artist. Reveal it, then tap who got it right.',
 };
 
 // ---- State ----
@@ -76,7 +76,7 @@ const MODE_HELP = {
 // game (while playing): {
 //   mode, target, players: [{ name, score, missed }],
 //   deck: [songIndex], turn, round, current: songIndex,
-//   phase: 'guess' | 'reveal', options: [band], pick, right: [bool], result, over }
+//   phase: 'guess' | 'reveal', options: [artist], pick, right: [bool], result, over }
 
 function loadState() {
   const fresh = {
@@ -118,11 +118,11 @@ function songsInRange() {
   return SONGS.map((_, i) => i).filter((i) => SONGS[i][0] >= from && SONGS[i][0] <= to);
 }
 
-// The right band plus three others, in random order.
-function bandOptions(i) {
-  const band = SONGS[i][2];
-  const others = shuffle(BANDS.filter((b) => b !== band)).slice(0, 3);
-  return shuffle([band, ...others]);
+// The right artist plus three others, in random order.
+function artistOptions(i) {
+  const artist = SONGS[i][2];
+  const others = shuffle(ARTISTS.filter((b) => b !== artist)).slice(0, 3);
+  return shuffle([artist, ...others]);
 }
 
 // ---- Music ----
@@ -173,7 +173,7 @@ function skipSong() {
   if (game.phase === 'guess' && game.deck.length && skips < MAX_SKIPS) {
     skips++;
     game.current = game.deck.pop();
-    game.options = bandOptions(game.current);
+    game.options = artistOptions(game.current);
     game.pick = null;
     save();
     renderPlay();
@@ -247,7 +247,7 @@ els.playBtn.addEventListener('click', () => {
 });
 
 els.audio.addEventListener('play', () => {
-  // Keep the lock screen and Control Center from giving the band away.
+  // Keep the lock screen and Control Center from giving the artist away.
   if ('mediaSession' in navigator && window.MediaMetadata) {
     navigator.mediaSession.metadata = new MediaMetadata({ title: 'Mystery song', artist: "I Love the 80's" });
   }
@@ -379,7 +379,7 @@ function startGame() {
     round: 1,
     current,
     phase: 'guess',
-    options: bandOptions(current),
+    options: artistOptions(current),
     pick: null,
     right: settings.players.map(() => false),
     result: null,
@@ -423,9 +423,9 @@ function renderPlay() {
     : 'Everyone shout it out!';
 
   els.songCard.classList.toggle('revealed', revealed);
-  els.tapeLabel.textContent = revealed ? s.band : 'Mystery Mix';
-  els.songBand.textContent = revealed ? s.band : '???';
-  els.songTitle.textContent = revealed ? `“${s.title}”` : "Who's the band?";
+  els.tapeLabel.textContent = revealed ? s.artist : 'Mystery Mix';
+  els.songArtist.textContent = revealed ? s.artist : '???';
+  els.songTitle.textContent = revealed ? `“${s.title}”` : "Who's the artist?";
   els.songYear.textContent = revealed ? s.year : '';
   if (!revealed) els.art.hidden = true;
 
@@ -441,7 +441,7 @@ function renderPlay() {
   }
 
   els.lockBtn.hidden = revealed;
-  els.lockBtn.textContent = game.mode === 'choice' ? 'Lock it in' : 'Reveal the band';
+  els.lockBtn.textContent = game.mode === 'choice' ? 'Lock it in' : 'Reveal the artist';
   els.lockBtn.disabled = game.mode === 'choice' && game.pick === null;
   els.nextBtn.hidden = !revealed;
   els.nextBtn.textContent = isGameOver() ? 'See the winner' : 'Next song';
@@ -449,16 +449,16 @@ function renderPlay() {
 
 function renderChoices(s, revealed) {
   const game = state.game;
-  els.choiceTitle.textContent = revealed ? 'The band was…' : 'Who is this?';
+  els.choiceTitle.textContent = revealed ? 'The artist was…' : 'Who is this?';
   els.choices.classList.toggle('locked', revealed);
-  els.choices.replaceChildren(...game.options.map((band, i) => {
+  els.choices.replaceChildren(...game.options.map((artist, i) => {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'choice';
-    b.textContent = band;
+    b.textContent = artist;
     if (revealed) {
       b.disabled = true;
-      if (band === s.band) b.classList.add('right');
+      if (artist === s.artist) b.classList.add('right');
       else if (i === game.pick) b.classList.add('wrong');
     } else {
       b.setAttribute('aria-pressed', String(game.pick === i));
@@ -476,7 +476,7 @@ function renderChoices(s, revealed) {
 
 function renderShout() {
   const game = state.game;
-  els.shoutTitle.textContent = game.players.length > 1 ? 'Who named the band?' : 'Did you name the band?';
+  els.shoutTitle.textContent = game.players.length > 1 ? 'Who got it right?' : 'Did you get it right?';
   els.shoutList.replaceChildren(...game.players.map((p, i) => {
     const b = document.createElement('button');
     b.type = 'button';
@@ -505,10 +505,10 @@ els.lockBtn.addEventListener('click', () => {
   const s = song(game.current);
   if (game.mode === 'choice') {
     const player = game.players[game.turn];
-    const good = game.options[game.pick] === s.band;
+    const good = game.options[game.pick] === s.artist;
     if (good) player.score++;
     else player.missed = (player.missed || 0) + 1;
-    game.result = { good, text: good ? 'Totally tubular! +1' : 'Bogus! Not that band.' };
+    game.result = { good, text: good ? 'Totally tubular! +1' : 'Bogus! Not that artist.' };
   } else {
     // Shout it out is scored when Next song is tapped, once everyone's marked.
     game.right = game.players.map(() => false);
@@ -553,7 +553,7 @@ els.nextBtn.addEventListener('click', () => {
     game.round++;
   }
   game.current = game.deck.pop();
-  game.options = bandOptions(game.current);
+  game.options = artistOptions(game.current);
   game.phase = 'guess';
   game.pick = null;
   game.right = game.players.map(() => false);

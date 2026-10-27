@@ -99,11 +99,6 @@
   "released": "2020",
   "found": "Echo Beach (feat. Lee Groves) — Martha And The Muffins"
  },
- "Mirror in the Bathroom — The Beat": {
-  "id": 1659018457,
-  "released": "1982",
-  "found": "Mirror in the Bathroom — The Beat feat. Ranking Roger"
- },
  "A Forest — The Cure": {
   "id": 286646361,
   "released": "1980",
@@ -504,11 +499,6 @@
   "released": "1983",
   "found": "Blue Monday — New Order"
  },
- "99 Luftballons — Nena": {
-  "id": 1442364218,
-  "released": "1983",
-  "found": "99 Luftballons — Nena"
- },
  "Red Red Wine — UB40": {
   "id": 1434903828,
   "released": "2009",
@@ -698,11 +688,6 @@
   "id": 477025761,
   "released": "1984",
   "found": "Can't Fight This Feeling — REO Speedwagon"
- },
- "You Spin Me Round (Like a Record) — Dead or Alive": {
-  "id": 277522754,
-  "released": "1997",
-  "found": "You Spin Me Round — Dead or Alive"
  },
  "Smooth Operator — Sade": {
   "id": 471623834,
@@ -1389,14 +1374,3892 @@
   "released": "1989",
   "found": "So Alive — Love and Rockets"
  },
- "Hallelujah — Happy Mondays": {
-  "id": 535818283,
-  "released": "1996",
-  "found": "Hallelujah — Happy Mondays"
- },
  "Down in It — Nine Inch Nails": {
   "id": 1440941066,
   "released": "1989",
   "found": "Down In It — Nine Inch Nails"
+ },
+ "Lady — Kenny Rogers": {
+  "id": 1375006944,
+  "released": "1980",
+  "found": "Lady — Kenny Rogers"
+ },
+ "Sailing — Christopher Cross": {
+  "id": 1845049885,
+  "released": "1979",
+  "found": "Sailing — Christopher Cross"
+ },
+ "Upside Down — Diana Ross": {
+  "id": 1445749385,
+  "released": "1980",
+  "found": "Upside Down — Diana Ross"
+ },
+ "Bette Davis Eyes — Kim Carnes": {
+  "id": 713030328,
+  "released": "1975",
+  "found": "Bette Davis Eyes — Kim Carnes"
+ },
+ "Physical — Olivia Newton-John": {
+  "id": 1880871417,
+  "released": "1981",
+  "found": "Physical (Remastered 2021) — Olivia Newton-John"
+ },
+ "Jessie's Girl — Rick Springfield": {
+  "id": 271905709,
+  "released": "1981",
+  "found": "Jessie's Girl — Rick Springfield"
+ },
+ "I Love Rock 'n' Roll — Joan Jett & the Blackhearts": {
+  "id": 1881685586,
+  "released": "1981",
+  "found": "I Love Rock 'N Roll — Joan Jett & The Blackhearts"
+ },
+ "Jack & Diane — John Mellencamp": {
+  "id": 1440918946,
+  "released": "1982",
+  "found": "Jack and Diane — John Cougar"
+ },
+ "Billie Jean — Michael Jackson": {
+  "id": 160022413,
+  "released": "1966",
+  "found": "Billie Jean — Michael Jackson"
+ },
+ "Beat It — Michael Jackson": {
+  "id": 269573341,
+  "released": "1982",
+  "found": "Beat It — Michael Jackson"
+ },
+ "Flashdance... What a Feeling — Irene Cara": {
+  "id": 284659248,
+  "released": "1983",
+  "found": "Flashdance...What a Feeling — Irene Cara"
+ },
+ "Total Eclipse of the Heart — Bonnie Tyler": {
+  "id": 318675359,
+  "released": "1982",
+  "found": "Total Eclipse of the Heart (Single Version) — Bonnie Tyler"
+ },
+ "All Night Long (All Night) — Lionel Richie": {
+  "id": 1440832460,
+  "released": "1983",
+  "found": "All Night Long (All Night) — Lionel Richie"
+ },
+ "When Doves Cry — Prince": {
+  "id": 212972932,
+  "released": "1984",
+  "found": "When Doves Cry — Prince"
+ },
+ "Time After Time — Cyndi Lauper": {
+  "id": 400603695,
+  "released": "1983",
+  "found": "Time After Time — Cyndi Lauper"
+ },
+ "Ghostbusters — Ray Parker Jr.": {
+  "id": 298553998,
+  "released": "1984",
+  "found": "Ghostbusters — Ray Parker Jr."
+ },
+ "Footloose — Kenny Loggins": {
+  "id": 1058079258,
+  "released": "1984",
+  "found": "Footloose (From \"Footloose\" Soundtrack) — Kenny Loggins"
+ },
+ "What's Love Got to Do with It — Tina Turner": {
+  "id": 804178540,
+  "released": "1984",
+  "found": "What's Love Got to Do with It — Tina Turner"
+ },
+ "Like a Virgin — Madonna": {
+  "id": 80815215,
+  "released": "1984",
+  "found": "Like a Virgin — Madonna"
+ },
+ "Dancing in the Dark — Bruce Springsteen": {
+  "id": 203709340,
+  "released": "1984",
+  "found": "Dancing In the Dark — Bruce Springsteen"
+ },
+ "Material Girl — Madonna": {
+  "id": 80812061,
+  "released": "1984",
+  "found": "Material Girl — Madonna"
+ },
+ "Running Up That Hill (A Deal with God) — Kate Bush": {
+  "id": 1675560578,
+  "released": "1985",
+  "found": "Running Up That Hill (A Deal With God) [2018 Remaster] — Kate Bush"
+ },
+ "Greatest Love of All — Whitney Houston": {
+  "id": 349286436,
+  "released": "1985",
+  "found": "Greatest Love of All — Whitney Houston"
+ },
+ "Sledgehammer — Peter Gabriel": {
+  "id": 987420387,
+  "released": "1986",
+  "found": "Sledgehammer — Peter Gabriel"
+ },
+ "Papa Don't Preach — Madonna": {
+  "id": 80815248,
+  "released": "1986",
+  "found": "Papa Don't Preach — Madonna"
+ },
+ "I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston": {
+  "id": 840431935,
+  "released": "1987",
+  "found": "I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston"
+ },
+ "Never Gonna Give You Up — Rick Astley": {
+  "id": 1624945512,
+  "released": "1987",
+  "found": "Never Gonna Give You Up (2022 Remaster) — Rick Astley"
+ },
+ "Bad — Michael Jackson": {
+  "id": 159294345,
+  "released": "1987",
+  "found": "Bad — Michael Jackson"
+ },
+ "Heaven Is a Place on Earth — Belinda Carlisle": {
+  "id": 1440771048,
+  "released": "1987",
+  "found": "Heaven is a Place on Earth — Belinda Carlisle"
+ },
+ "Faith — George Michael": {
+  "id": 282658468,
+  "released": "1987",
+  "found": "Faith — George Michael"
+ },
+ "Bad Medicine — Bon Jovi": {
+  "id": 1482016798,
+  "released": "1988",
+  "found": "Bad Medicine (Radio Edit) — Bon Jovi"
+ },
+ "Don't Worry, Be Happy — Bobby McFerrin": {
+  "id": 310526850,
+  "released": "1988",
+  "found": "Don't Worry, Be Happy — Bobby McFerrin"
+ },
+ "Fast Car — Tracy Chapman": {
+  "id": 1051106565,
+  "released": "1988",
+  "found": "Fast Car (2015 Remastered) — Tracy Chapman"
+ },
+ "Man in the Mirror — Michael Jackson": {
+  "id": 159294478,
+  "released": "1987",
+  "found": "Man In the Mirror — Michael Jackson"
+ },
+ "If You Don't Know Me by Now — Simply Red": {
+  "id": 321977378,
+  "released": "1989",
+  "found": "If You Don't Know Me By Now — Simply Red"
+ },
+ "Like a Prayer — Madonna": {
+  "id": 83445997,
+  "released": "1989",
+  "found": "Like a Prayer — Madonna"
+ },
+ "Cold Hearted — Paula Abdul": {
+  "id": 723700441,
+  "released": "1988",
+  "found": "Cold Hearted — Paula Abdul"
+ },
+ "We Didn't Start the Fire — Billy Joel": {
+  "id": 160022555,
+  "released": "1966",
+  "found": "We Didn't Start the Fire — Billy Joel"
+ },
+ "Another Day in Paradise — Phil Collins": {
+  "id": 1148701937,
+  "released": "1989",
+  "found": "Another Day In Paradise — Phil Collins"
+ },
+ "Miss You Much — Janet Jackson": {
+  "id": 1145522055,
+  "released": "1989",
+  "found": "Miss You Much — Janet Jackson"
+ },
+ "Atomic — Blondie": {
+  "id": 724177453,
+  "released": "1979",
+  "found": "Atomic — Blondie"
+ },
+ "The Tide Is High — Blondie": {
+  "id": 724403372,
+  "released": "1980",
+  "found": "The Tide Is High — Blondie"
+ },
+ "Messages — Orchestral Manoeuvres in the Dark": {
+  "id": 714727531,
+  "released": "1980",
+  "found": "Messages — Orchestral Manoeuvres In the Dark"
+ },
+ "De Do Do Do, De Da Da Da — The Police": {
+  "id": 1440883288,
+  "released": "1980",
+  "found": "De Do Do Do, De Da Da Da — The Police"
+ },
+ "Start! — The Jam": {
+  "id": 1440925824,
+  "released": "1980",
+  "found": "Start! — The Jam"
+ },
+ "Atmosphere — Joy Division": {
+  "id": 1443221675,
+  "released": "1979",
+  "found": "Atmosphere — Joy Division"
+ },
+ "Baggy Trousers — Madness": {
+  "id": 514897383,
+  "released": "1980",
+  "found": "Baggy Trousers — Madness"
+ },
+ "Rat Race — The Specials": {
+  "id": 1629128172,
+  "released": "1980",
+  "found": "Rat Race — The Specials"
+ },
+ "Geno — Dexys Midnight Runners": {
+  "id": 1438523846,
+  "released": "1980",
+  "found": "Geno — Dexys Midnight Runners"
+ },
+ "I Will Follow — U2": {
+  "id": 1440793937,
+  "released": "1980",
+  "found": "I Will Follow — U2"
+ },
+ "Touch and Go — The Cars": {
+  "id": 1088527827,
+  "released": "1980",
+  "found": "Touch and Go — The Cars"
+ },
+ "Christine — Siouxsie and the Banshees": {
+  "id": 1470588665,
+  "released": "1980",
+  "found": "Christine — Siouxsie & The Banshees"
+ },
+ "Happy House — Siouxsie and the Banshees": {
+  "id": 1470588472,
+  "released": "1980",
+  "found": "Happy House — Siouxsie & The Banshees"
+ },
+ "I Got You — Split Enz": {
+  "id": 1494504043,
+  "released": "1974",
+  "found": "I Got You — Split Enz"
+ },
+ "My Perfect Cousin — The Undertones": {
+  "id": 1716084117,
+  "released": "1980",
+  "found": "My Perfect Cousin — The Undertones"
+ },
+ "Talk of the Town — The Pretenders": {
+  "id": 19443745,
+  "released": "1980",
+  "found": "Talk of the Town — Pretenders"
+ },
+ "The Winner Takes It All — ABBA": {
+  "id": 1422648844,
+  "released": "1980",
+  "found": "The Winner Takes It All — ABBA"
+ },
+ "Super Trouper — ABBA": {
+  "id": 1530394070,
+  "released": "1980",
+  "found": "Super Trouper — ABBA"
+ },
+ "All Out of Love — Air Supply": {
+  "id": 253209983,
+  "released": "1979",
+  "found": "All Out of Love — Air Supply"
+ },
+ "Flash — Queen": {
+  "id": 6781081099,
+  "released": "1980",
+  "found": "Flash — Queen"
+ },
+ "Kiss on My List — Daryl Hall & John Oates": {
+  "id": 217764626,
+  "released": "1980",
+  "found": "Kiss on My List — Daryl Hall & John Oates"
+ },
+ "Any Way You Want It — Journey": {
+  "id": 195198326,
+  "released": "1980",
+  "found": "Any Way You Want It — Journey"
+ },
+ "Emotional Rescue — The Rolling Stones": {
+  "id": 1440812173,
+  "released": "1980",
+  "found": "Emotional Rescue — The Rolling Stones"
+ },
+ "The Spirit of Radio — Rush": {
+  "id": 1440656026,
+  "released": "1979",
+  "found": "The Spirit of Radio — Rush"
+ },
+ "Biggest Part of Me — Ambrosia": {
+  "id": 528181257,
+  "released": "1975",
+  "found": "Biggest Part of Me — Ambrosia"
+ },
+ "Sexy Eyes — Dr. Hook": {
+  "id": 1645446328,
+  "released": "1979",
+  "found": "Sexy Eyes — Dr. Hook"
+ },
+ "Turn It On Again — Genesis": {
+  "id": 263064585,
+  "released": "1980",
+  "found": "Turn It On Again — Genesis"
+ },
+ "Games People Play — The Alan Parsons Project": {
+  "id": 305368384,
+  "released": "1969",
+  "found": "Games People Play — The Alan Parsons Project"
+ },
+ "Refugee — Tom Petty and the Heartbreakers": {
+  "id": 1440860361,
+  "released": "1979",
+  "found": "Refugee — Tom Petty & The Heartbreakers"
+ },
+ "Living After Midnight — Judas Priest": {
+  "id": 207346368,
+  "released": "1980",
+  "found": "Living After Midnight — Judas Priest"
+ },
+ "Burn Rubber on Me (Why You Wanna Hurt Me) — The Gap Band": {
+  "id": 1669620386,
+  "released": "1980",
+  "found": "Burn Rubber On Me (Why You Wanna Hurt Me) — The Gap Band"
+ },
+ "More Bounce to the Ounce — Zapp": {
+  "id": 332672898,
+  "released": "1980",
+  "found": "More Bounce to the Ounce — Zapp & Roger"
+ },
+ "He's So Shy — The Pointer Sisters": {
+  "id": 303088198,
+  "released": "1980",
+  "found": "He's So Shy — The Pointer Sisters"
+ },
+ "Don't Stop the Music — Yarbrough & Peoples": {
+  "id": 1434914928,
+  "released": "1980",
+  "found": "Don't Stop the Music — Yarbrough & Peoples"
+ },
+ "Take Your Time (Do It Right) — The S.O.S. Band": {
+  "id": 1443757452,
+  "released": "1980",
+  "found": "Take Your Time (Do It Right) — The S.O.S. Band"
+ },
+ "Shining Star — The Manhattans": {
+  "id": 170590666,
+  "released": "1976",
+  "found": "Shining Star — The Manhattans"
+ },
+ "Fantastic Voyage — Lakeside": {
+  "id": 292707932,
+  "released": "1980",
+  "found": "Fantastic Voyage — Lakeside"
+ },
+ "Master Blaster (Jammin') — Stevie Wonder": {
+  "id": 1745599891,
+  "released": "1980",
+  "found": "Master Blaster (Jammin') — Stevie Wonder"
+ },
+ "It's Still Rock and Roll to Me — Billy Joel": {
+  "id": 158816095,
+  "released": "1980",
+  "found": "It's Still Rock and Roll to Me — Billy Joel"
+ },
+ "Hungry Heart — Bruce Springsteen": {
+  "id": 160021897,
+  "released": "1966",
+  "found": "Hungry Heart — Bruce Springsteen"
+ },
+ "Hit Me with Your Best Shot — Pat Benatar": {
+  "id": 1378667254,
+  "released": "1980",
+  "found": "Hit Me with Your Best Shot — Pat Benatar"
+ },
+ "Games Without Frontiers — Peter Gabriel": {
+  "id": 987420394,
+  "released": "1980",
+  "found": "Games Without Frontiers — Peter Gabriel"
+ },
+ "Ashes to Ashes — David Bowie": {
+  "id": 1347896328,
+  "released": "1980",
+  "found": "Ashes to Ashes — David Bowie"
+ },
+ "Fashion — David Bowie": {
+  "id": 1347896329,
+  "released": "1980",
+  "found": "Fashion — David Bowie"
+ },
+ "Babooshka — Kate Bush": {
+  "id": 1675374302,
+  "released": "1980",
+  "found": "Babooshka — Kate Bush"
+ },
+ "Little Jeannie — Elton John": {
+  "id": 1375006276,
+  "released": "1980",
+  "found": "Little Jeannie — Elton John"
+ },
+ "I'm Alright — Kenny Loggins": {
+  "id": null
+ },
+ "Fame — Irene Cara": {
+  "id": 1775597791,
+  "released": "1980",
+  "found": "Fame — Irene Cara"
+ },
+ "While You See a Chance — Steve Winwood": {
+  "id": 1480068102,
+  "released": "1980",
+  "found": "While You See a Chance — Steve Winwood"
+ },
+ "Morning Train (Nine to Five) — Sheena Easton": {
+  "id": 693486745,
+  "released": "1980",
+  "found": "Morning Train (Nine to Five) [Edit] — Sheena Easton"
+ },
+ "Magic — Olivia Newton-John": {
+  "id": 1440743079,
+  "released": "1980",
+  "found": "Magic — Olivia Newton-John"
+ },
+ "Ride Like the Wind — Christopher Cross": {
+  "id": 1862733677,
+  "released": "1979",
+  "found": "Ride Like the Wind — Christopher Cross"
+ },
+ "I'm Coming Out — Diana Ross": {
+  "id": 1464882042,
+  "released": "1980",
+  "found": "I'm Coming Out — Diana Ross"
+ },
+ "Crazy Train — Ozzy Osbourne": {
+  "id": 1531535287,
+  "released": "1980",
+  "found": "Crazy Train — Ozzy Osbourne"
+ },
+ "The Breaks — Kurtis Blow": {
+  "id": 1442217538,
+  "released": "1980",
+  "found": "The Breaks — Kurtis Blow"
+ },
+ "We Are Glass — Gary Numan": {
+  "id": 251679950,
+  "released": "1980",
+  "found": "We Are Glass — Gary Numan"
+ },
+ "Stand and Deliver — Adam and the Ants": {
+  "id": 187938809,
+  "released": "1981",
+  "found": "Stand and Deliver — Adam & The Ants"
+ },
+ "Souvenir — Orchestral Manoeuvres in the Dark": {
+  "id": 714758172,
+  "released": "1981",
+  "found": "Souvenir — Orchestral Manoeuvres In the Dark"
+ },
+ "Every Little Thing She Does Is Magic — The Police": {
+  "id": 1440883284,
+  "released": "1981",
+  "found": "Every Little Thing She Does Is Magic — The Police"
+ },
+ "Spirits in the Material World — The Police": {
+  "id": 1440869044,
+  "released": "1981",
+  "found": "Spirits In the Material World — The Police"
+ },
+ "It Must Be Love — Madness": {
+  "id": 1837840542,
+  "released": "1981",
+  "found": "It Must Be Love — Madness"
+ },
+ "One in Ten — UB40": {
+  "id": 713072945,
+  "released": "1980",
+  "found": "One In Ten — UB40"
+ },
+ "Love Action (I Believe in Love) — The Human League": {
+  "id": 724437815,
+  "released": "1981",
+  "found": "Love Action (I Believe In Love) — The Human League"
+ },
+ "New Life — Depeche Mode": {
+  "id": 665414538,
+  "released": "1981",
+  "found": "New Life — Depeche Mode"
+ },
+ "Ceremony — New Order": {
+  "id": 439593490,
+  "released": "1981",
+  "found": "Ceremony — New Order"
+ },
+ "Girls on Film — Duran Duran": {
+  "id": 726390070,
+  "released": "1981",
+  "found": "Girls On Film — Duran Duran"
+ },
+ "Spellbound — Siouxsie and the Banshees": {
+  "id": 1632029147,
+  "released": "1981",
+  "found": "Spellbound — Siouxsie & The Banshees"
+ },
+ "Never Say Never — Romeo Void": {
+  "id": 394947577,
+  "released": "1981",
+  "found": "Never Say Never — Romeo Void"
+ },
+ "Who Can It Be Now? — Men at Work": {
+  "id": 282960963,
+  "released": "1981",
+  "found": "Who Can It Be Now? — Men At Work"
+ },
+ "I Could Be Happy — Altered Images": {
+  "id": 1656812311,
+  "released": "1981",
+  "found": "I Could Be Happy — Altered Images"
+ },
+ "Reward — The Teardrop Explodes": {
+  "id": 1443850676,
+  "released": "1980",
+  "found": "Reward — The Teardrop Explodes"
+ },
+ "Wordy Rappinghood — Tom Tom Club": {
+  "id": 205482,
+  "released": "1981",
+  "found": "Wordy Rappinghood — Tom Tom Club"
+ },
+ "Computer Love — Kraftwerk": {
+  "id": 40555799,
+  "released": "1981",
+  "found": "Computer Love — Kraftwerk"
+ },
+ "Hold On Tight — Electric Light Orchestra": {
+  "id": 894170654,
+  "released": "1977",
+  "found": "Hold on Tight — Electric Light Orchestra"
+ },
+ "You Make My Dreams — Daryl Hall & John Oates": {
+  "id": 324199775,
+  "released": "1980",
+  "found": "You Make My Dreams — Daryl Hall & John Oates"
+ },
+ "Private Eyes — Daryl Hall & John Oates": {
+  "id": 273750246,
+  "released": "1981",
+  "found": "Private Eyes — Daryl Hall & John Oates"
+ },
+ "Who's Crying Now — Journey": {
+  "id": 169004538,
+  "released": "1981",
+  "found": "Who's Crying Now — Journey"
+ },
+ "Urgent — Foreigner": {
+  "id": 864202432,
+  "released": "1978",
+  "found": "Urgent — Foreigner"
+ },
+ "Take It on the Run — REO Speedwagon": {
+  "id": 353969983,
+  "released": "1980",
+  "found": "Take It On the Run — REO Speedwagon"
+ },
+ "The Best of Times — Styx": {
+  "id": 1746840290,
+  "released": "1981",
+  "found": "The Best Of Times — Styx"
+ },
+ "Waiting on a Friend — The Rolling Stones": {
+  "id": 1440812359,
+  "released": "1981",
+  "found": "Waiting On a Friend — The Rolling Stones"
+ },
+ "Harden My Heart — Quarterflash": {
+  "id": 1443834437,
+  "released": "1981",
+  "found": "Harden My Heart — Quarterflash"
+ },
+ "Turn Me Loose — Loverboy": {
+  "id": 298150836,
+  "released": "1980",
+  "found": "Turn Me Loose — Loverboy"
+ },
+ "Limelight — Rush": {
+  "id": 1440798894,
+  "released": "1981",
+  "found": "Limelight — Rush"
+ },
+ "Stray Cat Strut — Stray Cats": {
+  "id": 1443118263,
+  "released": "1981",
+  "found": "Stray Cat Strut — Stray Cats"
+ },
+ "The Night Owls — Little River Band": {
+  "id": 1451109529,
+  "released": "2019",
+  "found": "Night Owls — Little River Band"
+ },
+ "Abacab — Genesis": {
+  "id": 263065384,
+  "released": "1981",
+  "found": "Abacab — Genesis"
+ },
+ "Romeo and Juliet — Dire Straits": {
+  "id": 299801055,
+  "released": "1980",
+  "found": "Romeo and Juliet — Dire Straits"
+ },
+ "Just Between You and Me — April Wine": {
+  "id": 1673135818,
+  "released": "1981",
+  "found": "Just Between You and Me — April Wine"
+ },
+ "You Better You Bet — The Who": {
+  "id": 1443232307,
+  "released": "1981",
+  "found": "You Better You Bet — The Who"
+ },
+ "The Waiting — Tom Petty and the Heartbreakers": {
+  "id": 1440853370,
+  "released": "1981",
+  "found": "The Waiting — Tom Petty & The Heartbreakers"
+ },
+ "Jeopardy — Greg Kihn Band": {
+  "id": 1701834709,
+  "released": "1983",
+  "found": "Jeopardy — Greg Kihn Band"
+ },
+ "Lady (You Bring Me Up) — Commodores": {
+  "id": 1443092246,
+  "released": "1977",
+  "found": "Lady (You Bring Me Up) — The Commodores"
+ },
+ "Get Down On It — Kool & the Gang": {
+  "id": 1426969090,
+  "released": "1981",
+  "found": "Get Down On It — Kool & The Gang"
+ },
+ "Call Me — Skyy": {
+  "id": 1451595620,
+  "released": "1981",
+  "found": "Call Me — Skyy"
+ },
+ "In the Air Tonight — Phil Collins": {
+  "id": 1148642451,
+  "released": "1981",
+  "found": "In the Air Tonight — Phil Collins"
+ },
+ "Dancing with Myself — Billy Idol": {
+  "id": 721207990,
+  "released": "1980",
+  "found": "Dancing with Myself — Billy Idol"
+ },
+ "Kids in America — Kim Wilde": {
+  "id": 1757449534,
+  "released": "1981",
+  "found": "Kids In America — Kim Wilde"
+ },
+ "Young Turks — Rod Stewart": {
+  "id": 1807490708,
+  "released": "1961",
+  "found": "Young Turks — Rod Stewart"
+ },
+ "Never Too Much — Luther Vandross": {
+  "id": 1792356204,
+  "released": "1981",
+  "found": "Never Too Much — Luther Vandross"
+ },
+ "Super Freak — Rick James": {
+  "id": 1440805227,
+  "released": "1981",
+  "found": "Super Freak — Rick James"
+ },
+ "Give It to Me Baby — Rick James": {
+  "id": 1425294406,
+  "released": "1981",
+  "found": "Give It To Me Baby — Rick James"
+ },
+ "For Your Eyes Only — Sheena Easton": {
+  "id": 715465280,
+  "released": "1981",
+  "found": "For Your Eyes Only — Sheena Easton"
+ },
+ "Why Do Fools Fall in Love — Diana Ross": {
+  "id": 972852266,
+  "released": "1981",
+  "found": "Why Do Fools Fall In Love — Diana Ross"
+ },
+ "Mickey — Toni Basil": {
+  "id": 1765363150,
+  "released": "1982",
+  "found": "Mickey (Original Recording Remastered) — Toni Basil"
+ },
+ "Edge of Seventeen — Stevie Nicks": {
+  "id": 219393906,
+  "released": "1981",
+  "found": "Edge of Seventeen — Stevie Nicks"
+ },
+ "The Stroke — Billy Squier": {
+  "id": 1440819912,
+  "released": "1981",
+  "found": "The Stroke — Billy Squier"
+ },
+ "There's a Guy Works Down the Chip Shop Swears He's Elvis — Kirsty MacColl": {
+  "id": 1575763557,
+  "released": "1981",
+  "found": "There's A Guy Works Down The Chip Shop Swears He's Elvis — Kirsty MacColl"
+ },
+ "Key Largo — Bertie Higgins": {
+  "id": 591863920,
+  "released": "1981",
+  "found": "Key Largo — Bertie Higgins"
+ },
+ "Town Called Malice — The Jam": {
+  "id": 1442468871,
+  "released": "1982",
+  "found": "Town Called Malice — The Jam"
+ },
+ "Save It for Later — The Beat": {
+  "id": 1714523402,
+  "released": "1982",
+  "found": "Save It for Later (2012 Remaster) — The English Beat"
+ },
+ "Mirror Man — The Human League": {
+  "id": 1443094125,
+  "released": "1983",
+  "found": "Mirror Man — The Human League"
+ },
+ "Let's Go to Bed — The Cure": {
+  "id": 1288102534,
+  "released": "1982",
+  "found": "Let's Go to Bed — The Cure"
+ },
+ "The One Thing — INXS": {
+  "id": 828785130,
+  "released": "1982",
+  "found": "The One Thing — INXS"
+ },
+ "Glittering Prize — Simple Minds": {
+  "id": 714765067,
+  "released": "1982",
+  "found": "Glittering Prize — Simple Minds"
+ },
+ "Pale Shelter — Tears for Fears": {
+  "id": 1440912610,
+  "released": "1982",
+  "found": "Pale Shelter — Tears for Fears"
+ },
+ "Rio — Duran Duran": {
+  "id": 693584839,
+  "released": "1982",
+  "found": "Rio — Duran Duran"
+ },
+ "Save a Prayer — Duran Duran": {
+  "id": 693584974,
+  "released": "1982",
+  "found": "Save a Prayer — Duran Duran"
+ },
+ "Time (Clock of the Heart) — Culture Club": {
+  "id": 714737987,
+  "released": "1982",
+  "found": "Time (Clock of the Heart) — Culture Club"
+ },
+ "Lies — Thompson Twins": {
+  "id": 1700442377,
+  "released": "1982",
+  "found": "Lies — Thompson Twins"
+ },
+ "Hey Little Girl — Icehouse": {
+  "id": 537852245,
+  "released": "1982",
+  "found": "Hey Little Girl — ICEHOUSE"
+ },
+ "Red Skies — The Fixx": {
+  "id": null
+ },
+ "Words — Missing Persons": {
+  "id": 716218169,
+  "released": "1982",
+  "found": "Words — Missing Persons"
+ },
+ "Destination Unknown — Missing Persons": {
+  "id": 724440038,
+  "released": "1980",
+  "found": "Destination Unknown — Missing Persons"
+ },
+ "Only the Lonely — The Motels": {
+  "id": 715958729,
+  "released": "1982",
+  "found": "Only the Lonely — The Motels"
+ },
+ "Situation — Yaz": {
+  "id": 62442871,
+  "released": "1982",
+  "found": "Situation — Yaz"
+ },
+ "Don't Go — Yaz": {
+  "id": 62442833,
+  "released": "1982",
+  "found": "Don't Go — Yaz"
+ },
+ "Torch — Soft Cell": {
+  "id": 1444070609,
+  "released": "1982",
+  "found": "Torch — Soft Cell"
+ },
+ "Party Fears Two — The Associates": {
+  "id": 1441045110,
+  "released": "1982",
+  "found": "Party Fears Two (2016 Remaster) [Single Edit] — The Associates"
+ },
+ "I Love a Man in a Uniform — Gang of Four": {
+  "id": 1589243732,
+  "released": "1982",
+  "found": "I Love a Man In a Uniform — Gang of Four"
+ },
+ "Shy Boy — Bananarama": {
+  "id": 1301440485,
+  "released": "1982",
+  "found": "Shy Boy — Bananarama"
+ },
+ "We Got the Beat — The Go-Go's": {
+  "id": 1440843876,
+  "released": "1981",
+  "found": "We Got the Beat — The Go-Go's"
+ },
+ "Back on the Chain Gang — The Pretenders": {
+  "id": 1270786770,
+  "released": "1980",
+  "found": "Back On the Chain Gang — Pretenders"
+ },
+ "Open Arms — Journey": {
+  "id": 320265344,
+  "released": "1981",
+  "found": "Open Arms — Journey"
+ },
+ "Juke Box Hero — Foreigner": {
+  "id": 864202492,
+  "released": "1978",
+  "found": "Juke Box Hero — Foreigner"
+ },
+ "Freeze-Frame — The J. Geils Band": {
+  "id": 715735188,
+  "released": "1979",
+  "found": "Freeze-Frame — The J. Geils Band"
+ },
+ "Caught Up in You — .38 Special": {
+  "id": 1440891607,
+  "released": "1982",
+  "found": "Caught Up In You — 38 Special"
+ },
+ "Hard to Say I'm Sorry — Chicago": {
+  "id": 1013383867,
+  "released": "2000",
+  "found": "Hard to Say I'm Sorry — Chicago"
+ },
+ "Do You Believe in Love — Huey Lewis & The News": {
+  "id": 725785285,
+  "released": "1982",
+  "found": "Do You Believe In Love — Huey Lewis & The News"
+ },
+ "Only Time Will Tell — Asia": {
+  "id": 1421296019,
+  "released": "1982",
+  "found": "Only Time Will Tell — Asia"
+ },
+ "Eye in the Sky — The Alan Parsons Project": {
+  "id": 216347564,
+  "released": "1982",
+  "found": "Eye In the Sky — The Alan Parsons Project"
+ },
+ "Hold Me — Fleetwood Mac": {
+  "id": 593328269,
+  "released": "1982",
+  "found": "Hold Me — Fleetwood Mac"
+ },
+ "Gypsy — Fleetwood Mac": {
+  "id": 1111749675,
+  "released": "1982",
+  "found": "Gypsy — Fleetwood Mac"
+ },
+ "On the Loose — Saga": {
+  "id": 1298871865,
+  "released": "1981",
+  "found": "On the Loose — Saga"
+ },
+ "You Got Lucky — Tom Petty and the Heartbreakers": {
+  "id": 1763561681,
+  "released": "1982",
+  "found": "You Got Lucky — Tom Petty & The Heartbreakers"
+ },
+ "Twilight Zone — Golden Earring": {
+  "id": 98590213,
+  "released": "1982",
+  "found": "Twilight Zone — Golden Earring"
+ },
+ "No One Like You — Scorpions": {
+  "id": 1440922031,
+  "released": "1982",
+  "found": "No One Like You — Scorpions"
+ },
+ "The Number of the Beast — Iron Maiden": {
+  "id": 1713862907,
+  "released": "1982",
+  "found": "The Number of the Beast (2015 Remaster) — Iron Maiden"
+ },
+ "You've Got Another Thing Comin' — Judas Priest": {
+  "id": 207178401,
+  "released": "1982",
+  "found": "You've Got Another Thing Comin' — Judas Priest"
+ },
+ "You Dropped a Bomb on Me — The Gap Band": {
+  "id": 1674672132,
+  "released": "1979",
+  "found": "You Dropped A Bomb On Me — The Gap Band"
+ },
+ "Outstanding — The Gap Band": {
+  "id": 1424520692,
+  "released": "1982",
+  "found": "Outstanding — The Gap Band"
+ },
+ "A Night to Remember — Shalamar": {
+  "id": 1769662593,
+  "released": "1982",
+  "found": "A Night to Remember — Shalamar"
+ },
+ "I'm So Excited — The Pointer Sisters": {
+  "id": 1787328099,
+  "released": "1982",
+  "found": "I'm So Excited — The Pointer Sisters"
+ },
+ "It's Raining Men — The Weather Girls": {
+  "id": 471642312,
+  "released": "1982",
+  "found": "It's Raining Men — The Weather Girls"
+ },
+ "Let It Whip — Dazz Band": {
+  "id": 1444083899,
+  "released": "1982",
+  "found": "Let It Whip — Dazz Band"
+ },
+ "The Message — Grandmaster Flash and the Furious Five": {
+  "id": 59389711,
+  "released": "1982",
+  "found": "The Message — Grandmaster Flash & The Furious Five"
+ },
+ "That Girl — Stevie Wonder": {
+  "id": 1440757675,
+  "released": "1981",
+  "found": "That Girl — Stevie Wonder"
+ },
+ "1999 — Prince": {
+  "id": 1544173942,
+  "released": "1982",
+  "found": "1999 — Prince"
+ },
+ "Truly — Lionel Richie": {
+  "id": 1443877556,
+  "released": "1982",
+  "found": "Truly — Lionel Richie"
+ },
+ "You Can't Hurry Love — Phil Collins": {
+  "id": 1148642439,
+  "released": "1982",
+  "found": "You Can't Hurry Love — Phil Collins"
+ },
+ "Pressure — Billy Joel": {
+  "id": 1461893064,
+  "released": "1976",
+  "found": "Pressure — Billy Joel"
+ },
+ "Allentown — Billy Joel": {
+  "id": 158816113,
+  "released": "1982",
+  "found": "Allentown — Billy Joel"
+ },
+ "Shadows of the Night — Pat Benatar": {
+  "id": 724213624,
+  "released": "1982",
+  "found": "Shadows of the Night — Pat Benatar"
+ },
+ "Hot in the City — Billy Idol": {
+  "id": 726174291,
+  "released": "1982",
+  "found": "Hot In the City — Billy Idol"
+ },
+ "White Wedding — Billy Idol": {
+  "id": 375062196,
+  "released": "1998",
+  "found": "White Wedding — Billy Idol"
+ },
+ "Hurts So Good — John Mellencamp": {
+  "id": 1418216400,
+  "released": "1982",
+  "found": "Hurts So Good — John Cougar"
+ },
+ "Don't Talk to Strangers — Rick Springfield": {
+  "id": 258612405,
+  "released": "1981",
+  "found": "Don't Talk to Strangers — Rick Springfield"
+ },
+ "Shock the Monkey — Peter Gabriel": {
+  "id": 986723832,
+  "released": "1982",
+  "found": "Shock the Monkey — Peter Gabriel"
+ },
+ "Gloria — Laura Branigan": {
+  "id": 1384487469,
+  "released": "1982",
+  "found": "Gloria — Laura Branigan"
+ },
+ "She Blinded Me with Science — Thomas Dolby": {
+  "id": 1437353023,
+  "released": "1982",
+  "found": "She Blinded Me With Science — Thomas Dolby"
+ },
+ "Shakin' — Eddie Money": {
+  "id": 200303603,
+  "released": "1982",
+  "found": "Shakin' — Eddie Money"
+ },
+ "Dirty Laundry — Don Henley": {
+  "id": 1701085111,
+  "released": "1982",
+  "found": "Dirty Laundry — Don Henley"
+ },
+ "Muscles — Diana Ross": {
+  "id": 972855043,
+  "released": "1982",
+  "found": "Muscles — Diana Ross"
+ },
+ "Steppin' Out — Joe Jackson": {
+  "id": 1434920307,
+  "released": "1982",
+  "found": "Steppin' Out — Joe Jackson"
+ },
+ "Crimson and Clover — Joan Jett & the Blackhearts": {
+  "id": 1881685605,
+  "released": "1981",
+  "found": "Crimson and Clover — Joan Jett & The Blackhearts"
+ },
+ "Goody Two Shoes — Adam Ant": {
+  "id": 212250036,
+  "released": "1982",
+  "found": "Goody Two Shoes — Adam Ant"
+ },
+ "Words — F. R. David": {
+  "id": 623557470,
+  "released": "1982",
+  "found": "Words (Original 1982) — F.R. David"
+ },
+ "Puttin' On the Ritz — Taco": {
+  "id": 1524937637,
+  "released": "1982",
+  "found": "Puttin' on the Ritz — Taco"
+ },
+ "Somebody's Baby — Jackson Browne": {
+  "id": 217508514,
+  "released": "1982",
+  "found": "Somebody's Baby — Jackson Browne"
+ },
+ "King of Pain — The Police": {
+  "id": 1452859796,
+  "released": "1983",
+  "found": "King of Pain — The Police"
+ },
+ "(Keep Feeling) Fascination — The Human League": {
+  "id": 1694002699,
+  "released": "1983",
+  "found": "(Keep Feeling) Fascination — The Human League"
+ },
+ "Everything Counts — Depeche Mode": {
+  "id": 665403466,
+  "released": "1983",
+  "found": "Everything Counts — Depeche Mode"
+ },
+ "Hand in Glove — The Smiths": {
+  "id": 799995893,
+  "released": "1983",
+  "found": "Hand In Glove — The Smiths"
+ },
+ "Sunday Bloody Sunday — U2": {
+  "id": 1440746347,
+  "released": "1983",
+  "found": "Sunday Bloody Sunday — U2"
+ },
+ "Original Sin — INXS": {
+  "id": 828784639,
+  "released": "1983",
+  "found": "Original Sin — INXS"
+ },
+ "The Cutter — Echo & the Bunnymen": {
+  "id": 31740125,
+  "released": "1983",
+  "found": "The Cutter — Echo & The Bunnymen"
+ },
+ "Change — Tears for Fears": {
+  "id": 1440912719,
+  "released": "1983",
+  "found": "Change — Tears for Fears"
+ },
+ "Is There Something I Should Know? — Duran Duran": {
+  "id": 693547769,
+  "released": "1981",
+  "found": "Is There Something I Should Know — Duran Duran"
+ },
+ "Gold — Spandau Ballet": {
+  "id": 693108497,
+  "released": "1983",
+  "found": "Gold — Spandau Ballet"
+ },
+ "Church of the Poison Mind — Culture Club": {
+  "id": 724214059,
+  "released": "1983",
+  "found": "Church of the Poison Mind — Culture Club"
+ },
+ "Love On Your Side — Thompson Twins": {
+  "id": 1675320715,
+  "released": "1983",
+  "found": "Love on Your Side — Thompson Twins"
+ },
+ "This Must Be the Place (Naive Melody) — Talking Heads": {
+  "id": 20833681,
+  "released": "1983",
+  "found": "This Must Be the Place (Naive Melody) — Talking Heads"
+ },
+ "She's in Parties — Bauhaus": {
+  "id": 189560621,
+  "released": "2006",
+  "found": "She's In Parties — Bauhaus"
+ },
+ "Blister in the Sun — Violent Femmes": {
+  "id": 1576789643,
+  "released": "1983",
+  "found": "Blister In The Sun — Violent Femmes"
+ },
+ "A Million Miles Away — The Plimsouls": {
+  "id": 1444223648,
+  "released": "1983",
+  "found": "A Million Miles Away — The Plimsouls"
+ },
+ "Overkill — Men at Work": {
+  "id": 471166632,
+  "released": "1983",
+  "found": "Overkill — Men At Work"
+ },
+ "It's a Mistake — Men at Work": {
+  "id": 337354090,
+  "released": "1983",
+  "found": "It's a Mistake — Men At Work"
+ },
+ "One Thing Leads to Another — The Fixx": {
+  "id": 1444491202,
+  "released": "1983",
+  "found": "One Thing Leads to Another — The Fixx"
+ },
+ "Saved by Zero — The Fixx": {
+  "id": 1437809272,
+  "released": "2002",
+  "found": "Saved By Zero — The Fixx"
+ },
+ "Walking in L.A. — Missing Persons": {
+  "id": 716218132,
+  "released": "1982",
+  "found": "Walking In L.A. — Missing Persons"
+ },
+ "The Metro — Berlin": {
+  "id": 1440915717,
+  "released": "1981",
+  "found": "The Metro — Berlin"
+ },
+ "Suddenly Last Summer — The Motels": {
+  "id": 1496045591,
+  "released": "1983",
+  "found": "Suddenly Last Summer — The Motels"
+ },
+ "Promises, Promises — Naked Eyes": {
+  "id": 1629182678,
+  "released": "1983",
+  "found": "Promises, Promises — Naked Eyes"
+ },
+ "Wishful Thinking — China Crisis": {
+  "id": 725818332,
+  "released": "1982",
+  "found": "Wishful Thinking — China Crisis"
+ },
+ "The First Picture of You — The Lotus Eaters": {
+  "id": 396460977,
+  "released": "1983",
+  "found": "The First Picture of You — The Lotus Eaters"
+ },
+ "Oblivious — Aztec Camera": {
+  "id": 516579467,
+  "released": "1983",
+  "found": "Oblivious — Aztec Camera"
+ },
+ "Rip It Up — Orange Juice": {
+  "id": 1183408281,
+  "released": "1982",
+  "found": "Rip It Up — Orange Juice"
+ },
+ "68 Guns — The Alarm": {
+  "id": 723482090,
+  "released": "1990",
+  "found": "68 Guns — The Alarm"
+ },
+ "Fields of Fire — Big Country": {
+  "id": 1440921453,
+  "released": "1983",
+  "found": "Fields of Fire — Big Country"
+ },
+ "Middle of the Road — The Pretenders": {
+  "id": 255900105,
+  "released": "1984",
+  "found": "Middle of the Road — Pretenders"
+ },
+ "Sign of the Times — The Belle Stars": {
+  "id": 1484105448,
+  "released": "1981",
+  "found": "Sign of the Times — The Belle Stars"
+ },
+ "Tour de France — Kraftwerk": {
+  "id": null
+ },
+ "Living on Video — Trans-X": {
+  "id": 1674071598,
+  "released": "1983",
+  "found": "Living On Video — Trans-X"
+ },
+ "The Walls Came Down — The Call": {
+  "id": 1443771215,
+  "released": "1991",
+  "found": "The Walls Came Down — The Call"
+ },
+ "Making Love Out of Nothing at All — Air Supply": {
+  "id": 303178223,
+  "released": "1982",
+  "found": "Making Love out of Nothing at All — Air Supply"
+ },
+ "Faithfully — Journey": {
+  "id": 476986080,
+  "released": "1983",
+  "found": "Faithfully — Journey"
+ },
+ "I Won't Hold You Back — Toto": {
+  "id": 477025777,
+  "released": "1982",
+  "found": "I Won't Hold You Back — Toto"
+ },
+ "Mama — Genesis": {
+  "id": 309736944,
+  "released": "1983",
+  "found": "Mama — Genesis"
+ },
+ "That's All — Genesis": {
+  "id": 267976262,
+  "released": "1983",
+  "found": "That's All — Genesis"
+ },
+ "Don't Cry — Asia": {
+  "id": 1440913592,
+  "released": "1983",
+  "found": "Don't Cry — Asia"
+ },
+ "She's a Beauty — The Tubes": {
+  "id": 1434901966,
+  "released": "1983",
+  "found": "She's a Beauty — The Tubes"
+ },
+ "Gimme All Your Lovin' — ZZ Top": {
+  "id": 1727222384,
+  "released": "1983",
+  "found": "Gimme All Your Lovin' — ZZ Top"
+ },
+ "Rock of Ages — Def Leppard": {
+  "id": 1438626569,
+  "released": "1983",
+  "found": "Rock of Ages — Def Leppard"
+ },
+ "Metal Health (Bang Your Head) — Quiet Riot": {
+  "id": 190737658,
+  "released": "1983",
+  "found": "Metal Health (Bang Your Head) — Quiet Riot"
+ },
+ "The Trooper — Iron Maiden": {
+  "id": 1862239892,
+  "released": "1999",
+  "found": "The Trooper — Iron Maiden"
+ },
+ "Joanna — Kool & the Gang": {
+  "id": 1431062041,
+  "released": "1983",
+  "found": "Joanna — Kool & The Gang"
+ },
+ "Time Will Reveal — DeBarge": {
+  "id": 1434894426,
+  "released": "1983",
+  "found": "Time Will Reveal — DeBarge"
+ },
+ "Freak-a-Zoid — Midnight Star": {
+  "id": 282863554,
+  "released": "1983",
+  "found": "Freak-A-Zoid — Midnight Star"
+ },
+ "Just Be Good to Me — The S.O.S. Band": {
+  "id": 1443924876,
+  "released": "1983",
+  "found": "Just Be Good to Me — The S.O.S. Band"
+ },
+ "Juicy Fruit — Mtume": {
+  "id": 192485479,
+  "released": "1983",
+  "found": "Juicy Fruit — Mtume"
+ },
+ "All Night Long — Mary Jane Girls": {
+  "id": 1451762852,
+  "released": "1983",
+  "found": "All Night Long — Mary Jane Girls"
+ },
+ "Candy Girl — New Edition": {
+  "id": 3242306,
+  "released": "1983",
+  "found": "Candy Girl — New Edition"
+ },
+ "Thriller — Michael Jackson": {
+  "id": 269573303,
+  "released": "1982",
+  "found": "Thriller — Michael Jackson"
+ },
+ "Wanna Be Startin' Somethin' — Michael Jackson": {
+  "id": 269572927,
+  "released": "1982",
+  "found": "Wanna Be Startin' Somethin' — Michael Jackson"
+ },
+ "Human Nature — Michael Jackson": {
+  "id": 269573405,
+  "released": "1982",
+  "found": "Human Nature — Michael Jackson"
+ },
+ "Holiday — Madonna": {
+  "id": 80815632,
+  "released": "1983",
+  "found": "Holiday — Madonna"
+ },
+ "Little Red Corvette — Prince": {
+  "id": 1544173943,
+  "released": "1982",
+  "found": "Little Red Corvette — Prince"
+ },
+ "Girls Just Want to Have Fun — Cyndi Lauper": {
+  "id": 400603693,
+  "released": "1983",
+  "found": "Girls Just Want to Have Fun — Cyndi Lauper"
+ },
+ "Running with the Night — Lionel Richie": {
+  "id": 1440809045,
+  "released": "1983",
+  "found": "Running With the Night — Lionel Richie"
+ },
+ "Tell Her About It — Billy Joel": {
+  "id": 418446822,
+  "released": "1973",
+  "found": "Tell Her About It — Billy Joel"
+ },
+ "Uptown Girl — Billy Joel": {
+  "id": 259814810,
+  "released": "1983",
+  "found": "Uptown Girl — Billy Joel"
+ },
+ "Love Is a Battlefield — Pat Benatar": {
+  "id": 1455386513,
+  "released": "1983",
+  "found": "Love Is a Battlefield — Pat Benatar"
+ },
+ "Cuts Like a Knife — Bryan Adams": {
+  "id": 1440656342,
+  "released": "1983",
+  "found": "Cuts Like a Knife — Bryan Adams"
+ },
+ "Straight from the Heart — Bryan Adams": {
+  "id": 1454088106,
+  "released": "1983",
+  "found": "Straight From The Heart — Bryan Adams"
+ },
+ "Pink Houses — John Mellencamp": {
+  "id": 1418215986,
+  "released": "1983",
+  "found": "Pink Houses — John Cougar Mellencamp"
+ },
+ "Let's Dance — David Bowie": {
+  "id": 1475002923,
+  "released": "1983",
+  "found": "Let's Dance — David Bowie"
+ },
+ "China Girl — David Bowie": {
+  "id": 700026230,
+  "released": "1983",
+  "found": "China Girl — David Bowie"
+ },
+ "Modern Love — David Bowie": {
+  "id": 1475002921,
+  "released": "1983",
+  "found": "Modern Love — David Bowie"
+ },
+ "I'm Still Standing — Elton John": {
+  "id": 1452865258,
+  "released": "1983",
+  "found": "I'm Still Standing — Elton John"
+ },
+ "I Guess That's Why They Call It the Blues — Elton John": {
+  "id": 1452865159,
+  "released": "1983",
+  "found": "I Guess That's Why They Call It the Blues — Elton John"
+ },
+ "What Is Love? — Howard Jones": {
+  "id": 1765603566,
+  "released": "1982",
+  "found": "What Is Love? — Howard Jones"
+ },
+ "Twist of Fate — Olivia Newton-John": {
+  "id": 1880871615,
+  "released": "1981",
+  "found": "Twist Of Fate (Remastered 2021) — Olivia Newton-John"
+ },
+ "Breaking Us in Two — Joe Jackson": {
+  "id": 1406809086,
+  "released": "1982",
+  "found": "Breaking Us in Two — Joe Jackson"
+ },
+ "Stand Back — Stevie Nicks": {
+  "id": 219394103,
+  "released": "1983",
+  "found": "Stand Back — Stevie Nicks"
+ },
+ "Major Tom (Coming Home) — Peter Schilling": {
+  "id": 1100688215,
+  "released": "1982",
+  "found": "Major Tom — Peter Schilling"
+ },
+ "Come Back and Stay — Paul Young": {
+  "id": 429802759,
+  "released": "1983",
+  "found": "Come Back and Stay — Paul Young"
+ },
+ "Maniac — Michael Sembello": {
+  "id": 1425259944,
+  "released": "1983",
+  "found": "Maniac — Michael Sembello"
+ },
+ "Break My Stride — Matthew Wilder": {
+  "id": 318675502,
+  "released": "1983",
+  "found": "Break My Stride — Matthew Wilder"
+ },
+ "Master and Servant — Depeche Mode": {
+  "id": 665414560,
+  "released": "1984",
+  "found": "Master and Servant — Depeche Mode"
+ },
+ "The Ghost in You — The Psychedelic Furs": {
+  "id": 169719497,
+  "released": "1984",
+  "found": "The Ghost In You — The Psychedelic Furs"
+ },
+ "Heaven Knows I'm Miserable Now — The Smiths": {
+  "id": 799980298,
+  "released": "1984",
+  "found": "Heaven Knows I'm Miserable Now — The Smiths"
+ },
+ "So. Central Rain (I'm Sorry) — R.E.M.": {
+  "id": 723808905,
+  "released": "1984",
+  "found": "So. Central Rain — R.E.M."
+ },
+ "The Wild Boys — Duran Duran": {
+  "id": 696762978,
+  "released": "1984",
+  "found": "The Wild Boys — Duran Duran"
+ },
+ "Miss Me Blind — Culture Club": {
+  "id": 724204836,
+  "released": "1983",
+  "found": "Miss Me Blind — Culture Club"
+ },
+ "Everything She Wants — Wham!": {
+  "id": 282658464,
+  "released": "1984",
+  "found": "Everything She Wants — Wham!"
+ },
+ "Freedom — Wham!": {
+  "id": 193085002,
+  "released": "1984",
+  "found": "Freedom — Wham!"
+ },
+ "Last Christmas — Wham!": {
+  "id": 282658482,
+  "released": "1984",
+  "found": "Last Christmas — Wham!"
+ },
+ "Lay Your Hands on Me — Thompson Twins": {
+  "id": 1675307907,
+  "released": "1984",
+  "found": "Lay Your Hands on Me — Thompson Twins"
+ },
+ "You Might Think — The Cars": {
+  "id": 1088528668,
+  "released": "1984",
+  "found": "You Might Think — The Cars"
+ },
+ "Magic — The Cars": {
+  "id": 1088531482,
+  "released": "1984",
+  "found": "Magic — The Cars"
+ },
+ "Pearly-Dewdrops' Drops — Cocteau Twins": {
+  "id": 1324635289,
+  "released": "1980",
+  "found": "Pearly-Dewdrops' Drops — Cocteau Twins"
+ },
+ "No More Words — Berlin": {
+  "id": 1492372771,
+  "released": "1984",
+  "found": "No More Words — Berlin"
+ },
+ "Dancing with Tears in My Eyes — Ultravox": {
+  "id": 1829495007,
+  "released": "1984",
+  "found": "Dancing With Tears In My Eyes — Ultravox"
+ },
+ "Such a Shame — Talk Talk": {
+  "id": 693429430,
+  "released": "1984",
+  "found": "Such a Shame — Talk Talk"
+ },
+ "When Love Breaks Down — Prefab Sprout": {
+  "id": 264115425,
+  "released": "1985",
+  "found": "When Love Breaks Down — Prefab Sprout"
+ },
+ "My Ever Changing Moods — The Style Council": {
+  "id": 1440918830,
+  "released": "1984",
+  "found": "My Ever Changing Moods — The Style Council"
+ },
+ "Shout to the Top! — The Style Council": {
+  "id": 1440919065,
+  "released": "1984",
+  "found": "Shout to the Top — The Style Council"
+ },
+ "Each and Every One — Everything but the Girl": {
+  "id": 1629189688,
+  "released": "1984",
+  "found": "Each and Every One — Everything But the Girl"
+ },
+ "(Feels Like) Heaven — Fiction Factory": {
+  "id": 368393248,
+  "released": "1983",
+  "found": "(Feels Like) Heaven — Fiction Factory"
+ },
+ "Eighties — Killing Joke": {
+  "id": 1698429758,
+  "released": "1992",
+  "found": "Eighties — Killing Joke"
+ },
+ "Robert De Niro's Waiting... — Bananarama": {
+  "id": 1299774708,
+  "released": "1984",
+  "found": "Robert De Niro's Waiting — Bananarama"
+ },
+ "Head Over Heels — The Go-Go's": {
+  "id": 1444901529,
+  "released": "1984",
+  "found": "Head over Heels — The Go-Go's"
+ },
+ "Since Yesterday — Strawberry Switchblade": {
+  "id": 1251643792,
+  "released": "1985",
+  "found": "Since Yesterday — Strawberry Switchblade"
+ },
+ "Young at Heart — The Bluebells": {
+  "id": 1772930627,
+  "released": "1984",
+  "found": "Young At Heart — The Bluebells"
+ },
+ "The Power of Love — Frankie Goes to Hollywood": {
+  "id": 1367997622,
+  "released": "1900",
+  "found": "The Power of Love — Frankie Goes to Hollywood"
+ },
+ "Close (to the Edit) — The Art of Noise": {
+  "id": 1708150271,
+  "released": "1983",
+  "found": "Close (To The Edit) [Single Edit] — Art of Noise"
+ },
+ "I Want to Break Free — Queen": {
+  "id": 6781461224,
+  "released": "1984",
+  "found": "I Want To Break Free — Queen"
+ },
+ "Out of Touch — Daryl Hall & John Oates": {
+  "id": 298385296,
+  "released": "1984",
+  "found": "Out of Touch — Daryl Hall & John Oates"
+ },
+ "When You Close Your Eyes — Night Ranger": {
+  "id": 1440648057,
+  "released": "1983",
+  "found": "When You Close Your Eyes — Night Ranger"
+ },
+ "I Want a New Drug — Huey Lewis & The News": {
+  "id": 1440825981,
+  "released": "1983",
+  "found": "I Want A New Drug — Huey Lewis & The News"
+ },
+ "Your Love Is King — Sade": {
+  "id": 431609123,
+  "released": "1984",
+  "found": "Your Love Is King — Sade"
+ },
+ "New Girl Now — Honeymoon Suite": {
+  "id": 299805475,
+  "released": "1984",
+  "found": "New Girl Now — Honeymoon Suite"
+ },
+ "Legs — ZZ Top": {
+  "id": 1615128758,
+  "released": "1983",
+  "found": "Legs — ZZ Top"
+ },
+ "Runaway — Bon Jovi": {
+  "id": 1440677812,
+  "released": "1983",
+  "found": "Runaway — Bon Jovi"
+ },
+ "Panama — Van Halen": {
+  "id": 976832496,
+  "released": "1984",
+  "found": "Panama — Van Halen"
+ },
+ "Hot for Teacher — Van Halen": {
+  "id": 976832501,
+  "released": "1984",
+  "found": "Hot for Teacher — Van Halen"
+ },
+ "Still Loving You — Scorpions": {
+  "id": 1425262571,
+  "released": "1984",
+  "found": "Still Loving You — Scorpions"
+ },
+ "I Wanna Rock — Twisted Sister": {
+  "id": 1355617147,
+  "released": "1984",
+  "found": "I Wanna Rock — Twisted Sister"
+ },
+ "Heaven's on Fire — Kiss": {
+  "id": 1446664303,
+  "released": "1984",
+  "found": "Heaven's On Fire — Kiss"
+ },
+ "2 Minutes to Midnight — Iron Maiden": {
+  "id": 1713861280,
+  "released": "1984",
+  "found": "2 Minutes to Midnight (2015 Remaster) — Iron Maiden"
+ },
+ "Fresh — Kool & the Gang": {
+  "id": 1426969211,
+  "released": "1984",
+  "found": "Fresh — Kool & The Gang"
+ },
+ "Jungle Love — The Time": {
+  "id": 797819693,
+  "released": "1984",
+  "found": "Jungle Love — The Time"
+ },
+ "Automatic — The Pointer Sisters": {
+  "id": 303088200,
+  "released": "1973",
+  "found": "Automatic — The Pointer Sisters"
+ },
+ "Jump (For My Love) — The Pointer Sisters": {
+  "id": 1225287222,
+  "released": "1983",
+  "found": "Jump — The Pointer Sisters"
+ },
+ "Neutron Dance — The Pointer Sisters": {
+  "id": 268528723,
+  "released": "1973",
+  "found": "Neutron Dance — The Pointer Sisters"
+ },
+ "Operator — Midnight Star": {
+  "id": 284072679,
+  "released": "1984",
+  "found": "Operator — Midnight Star"
+ },
+ "Cool It Now — New Edition": {
+  "id": 1443914476,
+  "released": "1984",
+  "found": "Cool It Now — New Edition"
+ },
+ "Friends — Whodini": {
+  "id": 272877006,
+  "released": "1984",
+  "found": "Friends — Whodini"
+ },
+ "Freaks Come Out at Night — Whodini": {
+  "id": 272876998,
+  "released": "1984",
+  "found": "Freaks Come Out At Night — Whodini"
+ },
+ "I Just Called to Say I Love You — Stevie Wonder": {
+  "id": 1444967624,
+  "released": "1984",
+  "found": "I Just Called To Say I Love You — Stevie Wonder"
+ },
+ "Borderline — Madonna": {
+  "id": 80815626,
+  "released": "1983",
+  "found": "Borderline — Madonna"
+ },
+ "Lucky Star — Madonna": {
+  "id": 80815624,
+  "released": "1983",
+  "found": "Lucky Star — Madonna"
+ },
+ "Let's Go Crazy — Prince": {
+  "id": 212973557,
+  "released": "1984",
+  "found": "Let's Go Crazy — Prince & The Revolution"
+ },
+ "Purple Rain — Prince": {
+  "id": 212975818,
+  "released": "1984",
+  "found": "Purple Rain — Prince & The Revolution"
+ },
+ "She Bop — Cyndi Lauper": {
+  "id": 400603696,
+  "released": "1983",
+  "found": "She Bop — Cyndi Lauper"
+ },
+ "All Through the Night — Cyndi Lauper": {
+  "id": 400603697,
+  "released": "1983",
+  "found": "All Through the Night — Cyndi Lauper"
+ },
+ "Hello — Lionel Richie": {
+  "id": 1440757799,
+  "released": "1983",
+  "found": "Hello — Lionel Richie"
+ },
+ "Against All Odds (Take a Look at Me Now) — Phil Collins": {
+  "id": 1148642452,
+  "released": "1984",
+  "found": "Against All Odds (Take a Look at Me Now) — Phil Collins"
+ },
+ "Careless Whisper — George Michael": {
+  "id": 193085066,
+  "released": "1984",
+  "found": "Careless Whisper — George Michael"
+ },
+ "Cover Me — Bruce Springsteen": {
+  "id": 203708535,
+  "released": "1984",
+  "found": "Cover Me — Bruce Springsteen"
+ },
+ "Born in the U.S.A. — Bruce Springsteen": {
+  "id": 203708455,
+  "released": "1984",
+  "found": "Born In the U.S.A. — Bruce Springsteen"
+ },
+ "Better Be Good to Me — Tina Turner": {
+  "id": 697409849,
+  "released": "1984",
+  "found": "Better Be Good to Me — Tina Turner"
+ },
+ "Private Dancer — Tina Turner": {
+  "id": 697409665,
+  "released": "1984",
+  "found": "Private Dancer — Tina Turner"
+ },
+ "We Belong — Pat Benatar": {
+  "id": 1455386514,
+  "released": "1984",
+  "found": "We Belong — Pat Benatar"
+ },
+ "Rebel Yell — Billy Idol": {
+  "id": 1440902023,
+  "released": "1983",
+  "found": "Rebel Yell — Billy Idol"
+ },
+ "Eyes Without a Face — Billy Idol": {
+  "id": 1440902027,
+  "released": "1983",
+  "found": "Eyes Without a Face — Billy Idol"
+ },
+ "Run to You — Bryan Adams": {
+  "id": 1676125925,
+  "released": "1984",
+  "found": "Run To You — Bryan Adams"
+ },
+ "Love Somebody — Rick Springfield": {
+  "id": 425019441,
+  "released": "1981",
+  "found": "Love Somebody — Rick Springfield"
+ },
+ "Blue Jean — David Bowie": {
+  "id": 699838039,
+  "released": "1984",
+  "found": "Blue Jean — David Bowie"
+ },
+ "Sad Songs (Say So Much) — Elton John": {
+  "id": 1440766277,
+  "released": "1984",
+  "found": "Sad Songs (Say So Much) — Elton John"
+ },
+ "Infatuation — Rod Stewart": {
+  "id": 295534132,
+  "released": "1984",
+  "found": "Infatuation — Rod Stewart"
+ },
+ "Some Guys Have All the Luck — Rod Stewart": {
+  "id": 295535946,
+  "released": "1984",
+  "found": "Some Guys Have All the Luck — Rod Stewart"
+ },
+ "Holding Out for a Hero — Bonnie Tyler": {
+  "id": 1164757336,
+  "released": "1984",
+  "found": "Holding Out for a Hero — Bonnie Tyler"
+ },
+ "Self Control — Laura Branigan": {
+  "id": 253339456,
+  "released": "1984",
+  "found": "Self Control — Laura Branigan"
+ },
+ "Wouldn't It Be Good — Nik Kershaw": {
+  "id": 1442322681,
+  "released": "1984",
+  "found": "Wouldn't It Be Good — Nik Kershaw"
+ },
+ "The Riddle — Nik Kershaw": {
+  "id": 1443925194,
+  "released": "1984",
+  "found": "The Riddle — Nik Kershaw"
+ },
+ "Hyperactive! — Thomas Dolby": {
+  "id": 1437349468,
+  "released": "1983",
+  "found": "Hyperactive! — Thomas Dolby"
+ },
+ "Sunglasses at Night — Corey Hart": {
+  "id": 1443124564,
+  "released": "1984",
+  "found": "Sunglasses at Night — Corey Hart"
+ },
+ "The Boys of Summer — Don Henley": {
+  "id": 1761230752,
+  "released": "1984",
+  "found": "The Boys Of Summer (Remastered 2024) — Don Henley"
+ },
+ "The Heat Is On — Glenn Frey": {
+  "id": 1440856858,
+  "released": "1984",
+  "found": "The Heat Is On — Glenn Frey"
+ },
+ "Missing You — John Waite": {
+  "id": 716357681,
+  "released": "1984",
+  "found": "Missing You — John Waite"
+ },
+ "Caribbean Queen (No More Love on the Run) — Billy Ocean": {
+  "id": 366965787,
+  "released": "1984",
+  "found": "Caribbean Queen (No More Love On the Run) — Billy Ocean"
+ },
+ "I Feel for You — Chaka Khan": {
+  "id": 1171166452,
+  "released": "1982",
+  "found": "I Feel for You — Chaka Khan"
+ },
+ "Strut — Sheena Easton": {
+  "id": 1680288148,
+  "released": "1984",
+  "found": "Strut — Sheena Easton"
+ },
+ "Sugar Walls — Sheena Easton": {
+  "id": 1838810690,
+  "released": "1984",
+  "found": "Sugar Walls — Sheena Easton"
+ },
+ "Rock Me Tonite — Billy Squier": {
+  "id": 716310867,
+  "released": "1984",
+  "found": "Rock Me Tonite — Billy Squier"
+ },
+ "Never Ending Story — Limahl": {
+  "id": 1473595046,
+  "released": "1984",
+  "found": "Never Ending Story — Limahl"
+ },
+ "New Attitude — Patti LaBelle": {
+  "id": 1445894941,
+  "released": "1984",
+  "found": "New Attitude — Patti LaBelle"
+ },
+ "The Glamorous Life — Sheila E.": {
+  "id": 124887851,
+  "released": "1984",
+  "found": "The Glamorous Life — Sheila E."
+ },
+ "I Can Dream About You — Dan Hartman": {
+  "id": 1440757879,
+  "released": "1984",
+  "found": "I Can Dream About You — Dan Hartman"
+ },
+ "Somebody's Watching Me — Rockwell": {
+  "id": 1589119250,
+  "released": "1983",
+  "found": "Somebody's Watching Me — Rockwell"
+ },
+ "Let's Hear It for the Boy — Deniece Williams": {
+  "id": 206175383,
+  "released": "1984",
+  "found": "Let's Hear It for the Boy — Deniece Williams"
+ },
+ "One Night in Bangkok — Murray Head": {
+  "id": null
+ },
+ "So in Love — Orchestral Manoeuvres in the Dark": {
+  "id": 724458023,
+  "released": "1985",
+  "found": "So In Love — Orchestral Manoeuvres In the Dark"
+ },
+ "The Perfect Kiss — New Order": {
+  "id": 439593501,
+  "released": "1985",
+  "found": "The Perfect Kiss — New Order"
+ },
+ "In Between Days — The Cure": {
+  "id": 282971466,
+  "released": "1985",
+  "found": "In Between Days — The Cure"
+ },
+ "Close to Me — The Cure": {
+  "id": 282971472,
+  "released": "1985",
+  "found": "Close to Me — The Cure"
+ },
+ "Can't Get There from Here — R.E.M.": {
+  "id": 723808916,
+  "released": "1985",
+  "found": "Can't Get There from Here — R.E.M."
+ },
+ "Bring On the Dancing Horses — Echo & the Bunnymen": {
+  "id": 31740184,
+  "released": "1985",
+  "found": "Bring On the Dancing Horses — Echo & The Bunnymen"
+ },
+ "Would I Lie to You? — Eurythmics": {
+  "id": 303097832,
+  "released": "1985",
+  "found": "Would I Lie to You? — Eurythmics"
+ },
+ "There Must Be an Angel (Playing with My Heart) — Eurythmics": {
+  "id": 255991618,
+  "released": "1985",
+  "found": "There Must Be an Angel — Eurythmics"
+ },
+ "A View to a Kill — Duran Duran": {
+  "id": 716101622,
+  "released": "1985",
+  "found": "A View to a Kill — Duran Duran"
+ },
+ "I'm Your Man — Wham!": {
+  "id": 478343740,
+  "released": "1985",
+  "found": "I'm Your Man — Wham!"
+ },
+ "Opportunities (Let's Make Lots of Money) — Pet Shop Boys": {
+  "id": 1645128755,
+  "released": "1986",
+  "found": "Opportunities (Let's Make Lots of Money) — Pet Shop Boys"
+ },
+ "King for a Day — Thompson Twins": {
+  "id": 1700434070,
+  "released": "1985",
+  "found": "King for a Day — Thompson Twins"
+ },
+ "And She Was — Talking Heads": {
+  "id": 20833693,
+  "released": "1985",
+  "found": "And She Was — Talking Heads"
+ },
+ "Tonight She Comes — The Cars": {
+  "id": 1107746086,
+  "released": "1984",
+  "found": "Tonight She Comes — The Cars"
+ },
+ "Cities in Dust — Siouxsie and the Banshees": {
+  "id": 1443842139,
+  "released": "1985",
+  "found": "Cities In Dust — Siouxsie & The Banshees"
+ },
+ "Rain — The Cult": {
+  "id": 1472437422,
+  "released": "1985",
+  "found": "Rain — The Cult"
+ },
+ "Makes No Sense at All — Hüsker Dü": {
+  "id": 515394944,
+  "released": "1985",
+  "found": "Makes No Sense At All — Hüsker Dü"
+ },
+ "Take the Skinheads Bowling — Camper Van Beethoven": {
+  "id": 1852630956,
+  "released": "1985",
+  "found": "Take the Skinheads Bowling — Camper Van Beethoven"
+ },
+ "Live It Up — Mental As Anything": {
+  "id": 1488973738,
+  "released": "1985",
+  "found": "Live It Up — Mental As Anything"
+ },
+ "Weird Science — Oingo Boingo": {
+  "id": 1440740351,
+  "released": "1985",
+  "found": "Weird Science — Oingo Boingo"
+ },
+ "Dead Man's Party — Oingo Boingo": {
+  "id": 1440740152,
+  "released": "1985",
+  "found": "Dead Man's Party — Oingo Boingo"
+ },
+ "Be Near Me — ABC": {
+  "id": 1444030038,
+  "released": "1985",
+  "found": "Be near Me — ABC"
+ },
+ "Life's What You Make It — Talk Talk": {
+  "id": 696670535,
+  "released": "1986",
+  "found": "Life's What You Make It — Talk Talk"
+ },
+ "The Whole of the Moon — The Waterboys": {
+  "id": 1629105396,
+  "released": "1985",
+  "found": "The Whole of the Moon — The Waterboys"
+ },
+ "Love Like Blood — Killing Joke": {
+  "id": 1679811819,
+  "released": "1985",
+  "found": "Love Like Blood — Killing Joke"
+ },
+ "Johnny Come Home — Fine Young Cannibals": {
+  "id": 1843872543,
+  "released": "1985",
+  "found": "Johnny Come Home — Fine Young Cannibals"
+ },
+ "Voices Carry — 'Til Tuesday": {
+  "id": 313258896,
+  "released": "1984",
+  "found": "Voices Carry — 'Til Tuesday"
+ },
+ "Cheri Cheri Lady — Modern Talking": {
+  "id": 348891989,
+  "released": "1985",
+  "found": "Cheri Cheri Lady — Modern Talking"
+ },
+ "Oh Yeah — Yello": {
+  "id": 1444006984,
+  "released": "1985",
+  "found": "Oh Yeah — Yello"
+ },
+ "Duel — Propaganda": {
+  "id": 1585274285,
+  "released": "1985",
+  "found": "Duel — Propaganda"
+ },
+ "Perfect Way — Scritti Politti": {
+  "id": 1139092976,
+  "released": "1985",
+  "found": "Perfect Way — Scritti Politti"
+ },
+ "When Your Heart Is Weak — Cock Robin": {
+  "id": 1675376150,
+  "released": "1985",
+  "found": "When Your Heart Is Weak — Cock Robin"
+ },
+ "We Close Our Eyes — Go West": {
+  "id": 1629183775,
+  "released": "1985",
+  "found": "We Close Our Eyes — Go West"
+ },
+ "Lovin' Every Minute of It — Loverboy": {
+  "id": 1712893961,
+  "released": "1985",
+  "found": "Lovin' Every Minute of It — Loverboy"
+ },
+ "Sara — Starship": {
+  "id": 1446293231,
+  "released": "1985",
+  "found": "Sara — Starship"
+ },
+ "Burning Heart — Survivor": {
+  "id": 271868841,
+  "released": "1985",
+  "found": "Burning Heart — Survivor"
+ },
+ "The Search Is Over — Survivor": {
+  "id": 289320376,
+  "released": "1984",
+  "found": "The Search Is Over — Survivor"
+ },
+ "Silent Running (On Dangerous Ground) — Mike + The Mechanics": {
+  "id": 939921604,
+  "released": "1985",
+  "found": "Silent Running — Mike + The Mechanics"
+ },
+ "Walk of Life — Dire Straits": {
+  "id": 308689556,
+  "released": "1985",
+  "found": "Walk of Life — Dire Straits"
+ },
+ "Brothers in Arms — Dire Straits": {
+  "id": 1813832431,
+  "released": "1985",
+  "found": "Brothers in Arms — Dire Straits"
+ },
+ "What About Love — Heart": {
+  "id": 1441162207,
+  "released": "1985",
+  "found": "What About Love? — Heart"
+ },
+ "Never — Heart": {
+  "id": 1441162301,
+  "released": "1985",
+  "found": "Never — Heart"
+ },
+ "The Sweetest Taboo — Sade": {
+  "id": 604770742,
+  "released": "1985",
+  "found": "The Sweetest Taboo — Sade"
+ },
+ "Sleeping Bag — ZZ Top": {
+  "id": 1727312830,
+  "released": "1985",
+  "found": "Sleeping Bag — ZZ Top"
+ },
+ "And We Danced — The Hooters": {
+  "id": 496638440,
+  "released": "1985",
+  "found": "And We Danced — The Hooters"
+ },
+ "Home Sweet Home — Mötley Crüe": {
+  "id": 1606701124,
+  "released": "1985",
+  "found": "Home Sweet Home — Mötley Crüe"
+ },
+ "Lay It Down — Ratt": {
+  "id": 1727217036,
+  "released": "1985",
+  "found": "Lay It Down — Ratt"
+ },
+ "Secret Lovers — Atlantic Starr": {
+  "id": 1443993337,
+  "released": "1985",
+  "found": "Secret Lovers — Atlantic Starr"
+ },
+ "Oh Sheila — Ready for the World": {
+  "id": 1444199567,
+  "released": "1985",
+  "found": "Oh Sheila — Ready for the World"
+ },
+ "I Miss You — Klymaxx": {
+  "id": 1443404461,
+  "released": "1984",
+  "found": "I Miss You — Klymaxx"
+ },
+ "Object of My Desire — Starpoint": {
+  "id": 305101840,
+  "released": "1984",
+  "found": "Object of My Desire — Starpoint"
+ },
+ "Tender Love — Force M.D.'s": {
+  "id": 1604636685,
+  "released": "1985",
+  "found": "Tender Love — Force M.D.'s"
+ },
+ "Hangin' on a String (Contemplating) — Loose Ends": {
+  "id": 806238905,
+  "released": "1992",
+  "found": "Hangin' On a String — Loose Ends"
+ },
+ "Point of No Return — Exposé": {
+  "id": 267955336,
+  "released": "1985",
+  "found": "Point of No Return — Exposé"
+ },
+ "King of Rock — Run-DMC": {
+  "id": 254816569,
+  "released": "1985",
+  "found": "King of Rock — Run-DMC"
+ },
+ "Part-Time Lover — Stevie Wonder": {
+  "id": 1443168472,
+  "released": "1985",
+  "found": "Part-Time Lover — Stevie Wonder"
+ },
+ "Into the Groove — Madonna": {
+  "id": 329064712,
+  "released": "1984",
+  "found": "Into the Groove — Madonna"
+ },
+ "Crazy for You — Madonna": {
+  "id": 80815020,
+  "released": "1985",
+  "found": "Crazy for You — Madonna"
+ },
+ "Raspberry Beret — Prince": {
+  "id": 212975301,
+  "released": "1985",
+  "found": "Raspberry Beret — Prince & The Revolution"
+ },
+ "Saving All My Love for You — Whitney Houston": {
+  "id": 349286431,
+  "released": "1985",
+  "found": "Saving All My Love for You — Whitney Houston"
+ },
+ "How Will I Know — Whitney Houston": {
+  "id": 349286433,
+  "released": "1985",
+  "found": "How Will I Know — Whitney Houston"
+ },
+ "Say You, Say Me — Lionel Richie": {
+  "id": 1440757806,
+  "released": "1985",
+  "found": "Say You, Say Me — Lionel Richie"
+ },
+ "One More Night — Phil Collins": {
+  "id": 110687442,
+  "released": "1985",
+  "found": "One More Night — Phil Collins"
+ },
+ "Sussudio — Phil Collins": {
+  "id": 1148642435,
+  "released": "1985",
+  "found": "Sussudio — Phil Collins"
+ },
+ "Take Me Home — Phil Collins": {
+  "id": 1148701933,
+  "released": "1985",
+  "found": "Take Me Home — Phil Collins"
+ },
+ "I'm on Fire — Bruce Springsteen": {
+  "id": 203708893,
+  "released": "1984",
+  "found": "I'm On Fire — Bruce Springsteen"
+ },
+ "Glory Days — Bruce Springsteen": {
+  "id": 203709191,
+  "released": "1984",
+  "found": "Glory Days — Bruce Springsteen"
+ },
+ "We Don't Need Another Hero (Thunderdome) — Tina Turner": {
+  "id": 697410052,
+  "released": "1985",
+  "found": "We Don't Need Another Hero (Thunderdome) — Tina Turner"
+ },
+ "Invincible — Pat Benatar": {
+  "id": 716130712,
+  "released": "1985",
+  "found": "Invincible — Pat Benatar"
+ },
+ "Heaven — Bryan Adams": {
+  "id": 1454088111,
+  "released": "1984",
+  "found": "Heaven — Bryan Adams"
+ },
+ "Summer of '69 — Bryan Adams": {
+  "id": 1454088112,
+  "released": "1983",
+  "found": "Summer Of '69 — Bryan Adams"
+ },
+ "Small Town — John Mellencamp": {
+  "id": 1440760016,
+  "released": "1985",
+  "found": "Small Town — John Cougar Mellencamp"
+ },
+ "Cloudbusting — Kate Bush": {
+  "id": 1675375378,
+  "released": "1985",
+  "found": "Cloudbusting — Kate Bush"
+ },
+ "If You Love Somebody Set Them Free — Sting": {
+  "id": 1440883292,
+  "released": "1985",
+  "found": "If You Love Somebody Set Them Free — Sting"
+ },
+ "Fortress Around Your Heart — Sting": {
+  "id": 1650884754,
+  "released": "1985",
+  "found": "Fortress Around Your Heart — Sting"
+ },
+ "Russians — Sting": {
+  "id": 1455400379,
+  "released": "1985",
+  "found": "Russians — Sting"
+ },
+ "Nikita — Elton John": {
+  "id": 1440912804,
+  "released": "1985",
+  "found": "Nikita — Elton John"
+ },
+ "Things Can Only Get Better — Howard Jones": {
+  "id": 1760579480,
+  "released": "1984",
+  "found": "Things Can Only Get Better — Howard Jones"
+ },
+ "Rock Me Amadeus — Falco": {
+  "id": 289513197,
+  "released": "1985",
+  "found": "Rock Me Amadeus — Falco"
+ },
+ "Never Surrender — Corey Hart": {
+  "id": 1443721319,
+  "released": "1985",
+  "found": "Never Surrender — Corey Hart"
+ },
+ "All She Wants to Do Is Dance — Don Henley": {
+  "id": 72267271,
+  "released": "1984",
+  "found": "All She Wants to Do Is Dance — Don Henley"
+ },
+ "Smuggler's Blues — Glenn Frey": {
+  "id": 1443458067,
+  "released": "1984",
+  "found": "Smuggler's Blues — Glenn Frey"
+ },
+ "You Belong to the City — Glenn Frey": {
+  "id": 6781410739,
+  "released": "1985",
+  "found": "You Belong To The City — Glenn Frey"
+ },
+ "Suddenly — Billy Ocean": {
+  "id": 459720625,
+  "released": "1984",
+  "found": "Suddenly — Billy Ocean"
+ },
+ "When the Going Gets Tough, the Tough Get Going — Billy Ocean": {
+  "id": 366965774,
+  "released": "1985",
+  "found": "When the Going Gets Tough, The Tough Get Going — Billy Ocean"
+ },
+ "Talk to Me — Stevie Nicks": {
+  "id": 219394073,
+  "released": "1985",
+  "found": "Talk to Me — Stevie Nicks"
+ },
+ "Rock the Bells — LL Cool J": {
+  "id": 1443821002,
+  "released": "1985",
+  "found": "Rock the Bells — LL COOL J"
+ },
+ "Slave to Love — Bryan Ferry": {
+  "id": 724306487,
+  "released": "1985",
+  "found": "Slave to Love — Bryan Ferry"
+ },
+ "19 — Paul Hardcastle": {
+  "id": 1629177761,
+  "released": "1985",
+  "found": "19 — Paul Hardcastle"
+ },
+ "Axel F — Harold Faltermeyer": {
+  "id": 1458388103,
+  "released": "1984",
+  "found": "Axel F — Harold Faltermeyer"
+ },
+ "Every Time You Go Away — Paul Young": {
+  "id": 408372938,
+  "released": "1985",
+  "found": "Every Time You Go Away — Paul Young"
+ },
+ "(Forever) Live and Die — Orchestral Manoeuvres in the Dark": {
+  "id": 724147391,
+  "released": "1986",
+  "found": "(Forever) Live and Die — Orchestral Manoeuvres In the Dark"
+ },
+ "Bigmouth Strikes Again — The Smiths": {
+  "id": 800132386,
+  "released": "1986",
+  "found": "Bigmouth Strikes Again — The Smiths"
+ },
+ "Ask — The Smiths": {
+  "id": 6787102153,
+  "released": "1986",
+  "found": "Ask (2011 Remaster) — The Smiths"
+ },
+ "Sanctify Yourself — Simple Minds": {
+  "id": 1443233935,
+  "released": "1985",
+  "found": "Sanctify Yourself — Simple Minds"
+ },
+ "Missionary Man — Eurythmics": {
+  "id": 206869566,
+  "released": "1986",
+  "found": "Missionary Man — Eurythmics"
+ },
+ "Notorious — Duran Duran": {
+  "id": 697012455,
+  "released": "1986",
+  "found": "Notorious — Duran Duran"
+ },
+ "The Edge of Heaven — Wham!": {
+  "id": 1683591781,
+  "released": "1986",
+  "found": "The Edge of Heaven — Wham!"
+ },
+ "Hunting High and Low — a-ha": {
+  "id": 380907780,
+  "released": "1985",
+  "found": "Hunting High and Low — a-ha"
+ },
+ "Sometimes — Erasure": {
+  "id": 302137838,
+  "released": "1986",
+  "found": "Sometimes — Erasure"
+ },
+ "Wild Wild Life — Talking Heads": {
+  "id": 124910390,
+  "released": "1986",
+  "found": "Wild Wild Life — Talking Heads"
+ },
+ "Blood and Roses — The Smithereens": {
+  "id": 724080786,
+  "released": "1986",
+  "found": "Blood and Roses — The Smithereens"
+ },
+ "The Dead Heart — Midnight Oil": {
+  "id": 206631258,
+  "released": "1986",
+  "found": "The Dead Heart — Midnight Oil"
+ },
+ "Digging Your Scene — The Blow Monkeys": {
+  "id": 1666054379,
+  "released": "1986",
+  "found": "Digging Your Scene — The Blow Monkeys"
+ },
+ "Happy Hour — The Housemartins": {
+  "id": 887484194,
+  "released": "1986",
+  "found": "Happy Hour — The Housemartins"
+ },
+ "E=MC2 — Big Audio Dynamite": {
+  "id": 169897750,
+  "released": "1985",
+  "found": "E=MC2 — Big Audio Dynamite"
+ },
+ "Rise — Public Image Ltd.": {
+  "id": 298086357,
+  "released": "1986",
+  "found": "Rise — Public Image Ltd."
+ },
+ "Eloise — The Damned": {
+  "id": 1452807051,
+  "released": "1985",
+  "found": "Eloise — The Damned"
+ },
+ "Manic Monday — The Bangles": {
+  "id": 331628310,
+  "released": "1986",
+  "found": "Manic Monday — The Bangles"
+ },
+ "Why? — Bronski Beat": {
+  "id": 1434868717,
+  "released": "1984",
+  "found": "Why? — Bronski Beat"
+ },
+ "Brand New Lover — Dead or Alive": {
+  "id": 424152349,
+  "released": "1983",
+  "found": "Brand New Lover — Dead or Alive"
+ },
+ "Brother Louie — Modern Talking": {
+  "id": 348891991,
+  "released": "1986",
+  "found": "Brother Louie — Modern Talking"
+ },
+ "I Can't Wait — Nu Shooz": {
+  "id": 6810001215,
+  "released": "1984",
+  "found": "I Can't Wait — Nu Shooz"
+ },
+ "The Future's So Bright, I Gotta Wear Shades — Timbuk 3": {
+  "id": 716068129,
+  "released": "1986",
+  "found": "The Future's So Bright, I Gotta Wear Shades — Timbuk 3"
+ },
+ "Lessons in Love — Level 42": {
+  "id": 343139554,
+  "released": "1981",
+  "found": "Lessons In Love — Level 42"
+ },
+ "Down to Earth — Curiosity Killed the Cat": {
+  "id": 1846353444,
+  "released": "1986",
+  "found": "Down to Earth — Curiosity Killed the Cat"
+ },
+ "Breakout — Swing Out Sister": {
+  "id": 1488634410,
+  "released": "1987",
+  "found": "Breakout — Swing Out Sister"
+ },
+ "Wonderful Life — Black": {
+  "id": 1224712860,
+  "released": "1986",
+  "found": "Wonderful Life — Black"
+ },
+ "A Kind of Magic — Queen": {
+  "id": 6781023881,
+  "released": "1986",
+  "found": "A Kind Of Magic — Queen"
+ },
+ "Who Wants to Live Forever — Queen": {
+  "id": 6781081117,
+  "released": "1986",
+  "found": "Who Wants To Live Forever — Queen"
+ },
+ "Harlem Shuffle — The Rolling Stones": {
+  "id": 1440860835,
+  "released": "1986",
+  "found": "Harlem Shuffle — The Rolling Stones"
+ },
+ "Stuck with You — Huey Lewis & The News": {
+  "id": 724210865,
+  "released": "1986",
+  "found": "Stuck With You — Huey Lewis & The News"
+ },
+ "Hip to Be Square — Huey Lewis & The News": {
+  "id": 724210880,
+  "released": "1986",
+  "found": "Hip To Be Square — Huey Lewis & The News"
+ },
+ "Throwing It All Away — Genesis": {
+  "id": 263065153,
+  "released": "1986",
+  "found": "Throwing It All Away — Genesis"
+ },
+ "Land of Confusion — Genesis": {
+  "id": 263065039,
+  "released": "1986",
+  "found": "Land of Confusion — Genesis"
+ },
+ "All I Need Is a Miracle — Mike + The Mechanics": {
+  "id": 1680251131,
+  "released": "1985",
+  "found": "All I Need Is A Miracle — Mike + The Mechanics"
+ },
+ "Is It Love — Mr. Mister": {
+  "id": 302053632,
+  "released": "1985",
+  "found": "Is It Love — Mr. Mister"
+ },
+ "Don't Forget Me (When I'm Gone) — Glass Tiger": {
+  "id": 1444491201,
+  "released": "1986",
+  "found": "Don't Forget Me (When I'm Gone) [Single Mix] — Glass Tiger"
+ },
+ "Your Wildest Dreams — The Moody Blues": {
+  "id": 1444220981,
+  "released": "1986",
+  "found": "Your Wildest Dreams — The Moody Blues"
+ },
+ "Keep Your Hands to Yourself — The Georgia Satellites": {
+  "id": 1566828161,
+  "released": "1986",
+  "found": "Keep Your Hands to Yourself — Georgia Satellites"
+ },
+ "Dreams — Van Halen": {
+  "id": 319402886,
+  "released": "1986",
+  "found": "Dreams — Van Halen"
+ },
+ "Nobody's Fool — Cinderella": {
+  "id": 1440494451,
+  "released": "1986",
+  "found": "Nobody's Fool — Cinderella"
+ },
+ "Love You Down — Ready for the World": {
+  "id": 1434916735,
+  "released": "1985",
+  "found": "Love You Down — Ready for the World"
+ },
+ "System Addict — Five Star": {
+  "id": 255977048,
+  "released": "1985",
+  "found": "System Addict — Five Star"
+ },
+ "Candy — Cameo": {
+  "id": 1444966982,
+  "released": "1985",
+  "found": "Candy — Cameo"
+ },
+ "Come Go with Me — Exposé": {
+  "id": 267955206,
+  "released": "1987",
+  "found": "Come Go With Me — Exposé"
+ },
+ "Crush on You — The Jets": {
+  "id": 18453348,
+  "released": "1983",
+  "found": "Crush On You — The Jets"
+ },
+ "You Be Illin' — Run-DMC": {
+  "id": 254345346,
+  "released": "1986",
+  "found": "You Be Illin' — Run-DMC"
+ },
+ "Live to Tell — Madonna": {
+  "id": 80815271,
+  "released": "1986",
+  "found": "Live to Tell — Madonna"
+ },
+ "Open Your Heart — Madonna": {
+  "id": 80815267,
+  "released": "1986",
+  "found": "Open Your Heart — Madonna"
+ },
+ "Kiss — Prince": {
+  "id": 260336471,
+  "released": "1986",
+  "found": "Kiss — Prince & The Revolution"
+ },
+ "True Colors — Cyndi Lauper": {
+  "id": 201575836,
+  "released": "1986",
+  "found": "True Colors — Cyndi Lauper"
+ },
+ "Dancing on the Ceiling — Lionel Richie": {
+  "id": 1442843549,
+  "released": "1986",
+  "found": "Dancing On the Ceiling — Lionel Richie"
+ },
+ "What Have You Done for Me Lately — Janet Jackson": {
+  "id": 1440831857,
+  "released": "1986",
+  "found": "What Have You Done for Me Lately — Janet Jackson"
+ },
+ "Nasty — Janet Jackson": {
+  "id": 1440831855,
+  "released": "1986",
+  "found": "Nasty — Janet Jackson"
+ },
+ "When I Think of You — Janet Jackson": {
+  "id": 1440831862,
+  "released": "1986",
+  "found": "When I Think of You — Janet Jackson"
+ },
+ "Control — Janet Jackson": {
+  "id": 1440831640,
+  "released": "1986",
+  "found": "Control — Janet Jackson"
+ },
+ "A Matter of Trust — Billy Joel": {
+  "id": 158816305,
+  "released": "1986",
+  "found": "A Matter of Trust — Billy Joel"
+ },
+ "Typical Male — Tina Turner": {
+  "id": 695689370,
+  "released": "1986",
+  "found": "Typical Male — Tina Turner"
+ },
+ "R.O.C.K. in the U.S.A. — John Mellencamp": {
+  "id": null
+ },
+ "You Keep Me Hangin' On — Kim Wilde": {
+  "id": 1443630839,
+  "released": "1986",
+  "found": "You Keep Me Hangin On — Kim Wilde"
+ },
+ "Big Time — Peter Gabriel": {
+  "id": 987872795,
+  "released": "1986",
+  "found": "Big Time — Peter Gabriel"
+ },
+ "In Your Eyes — Peter Gabriel": {
+  "id": 986800927,
+  "released": "1986",
+  "found": "In Your Eyes — Peter Gabriel"
+ },
+ "You Can Call Me Al — Paul Simon": {
+  "id": 380625785,
+  "released": "1986",
+  "found": "You Can Call Me Al — Paul Simon"
+ },
+ "Graceland — Paul Simon": {
+  "id": 581741458,
+  "released": "1986",
+  "found": "Graceland — Paul Simon"
+ },
+ "Danger Zone — Kenny Loggins": {
+  "id": 1796834570,
+  "released": "1980",
+  "found": "Danger Zone — Kenny Loggins"
+ },
+ "Mad About You — Belinda Carlisle": {
+  "id": 1466118762,
+  "released": "1986",
+  "found": "Mad About You — Belinda Carlisle"
+ },
+ "Addicted to Love — Robert Palmer": {
+  "id": 1646562078,
+  "released": "1985",
+  "found": "Addicted to Love — Robert Palmer"
+ },
+ "I Didn't Mean to Turn You On — Robert Palmer": {
+  "id": 1646562095,
+  "released": "1985",
+  "found": "I Didn't Mean to Turn You On — Robert Palmer"
+ },
+ "No One Is to Blame — Howard Jones": {
+  "id": 1764332265,
+  "released": "1984",
+  "found": "No One Is To Blame — Howard Jones"
+ },
+ "Take Me Home Tonight — Eddie Money": {
+  "id": 200304009,
+  "released": "1986",
+  "found": "Take Me Home Tonight — Eddie Money"
+ },
+ "Higher Love — Steve Winwood": {
+  "id": 1449494596,
+  "released": "1986",
+  "found": "Higher Love — Steve Winwood"
+ },
+ "Stop to Love — Luther Vandross": {
+  "id": 205232608,
+  "released": "1985",
+  "found": "Stop to Love — Luther Vandross"
+ },
+ "Sweet Love — Anita Baker": {
+  "id": 317230043,
+  "released": "1986",
+  "found": "Sweet Love — Anita Baker"
+ },
+ "Touch Me (I Want Your Body) — Samantha Fox": {
+  "id": 254971881,
+  "released": "1986",
+  "found": "Touch Me (I Want Your Body) — Samantha Fox"
+ },
+ "Shake You Down — Gregory Abbott": {
+  "id": 190207775,
+  "released": "1986",
+  "found": "Shake You Down — Gregory Abbott"
+ },
+ "We Don't Have to Take Our Clothes Off — Jermaine Stewart": {
+  "id": 1445835984,
+  "released": "1986",
+  "found": "We Don't Have To Take Our Clothes Off — Jermaine Stewart"
+ },
+ "Two of Hearts — Stacey Q": {
+  "id": 685834378,
+  "released": "1985",
+  "found": "Two Of Hearts — Stacey Q"
+ },
+ "Strangelove — Depeche Mode": {
+  "id": 665416556,
+  "released": "1987",
+  "found": "Strangelove — Depeche Mode"
+ },
+ "Girlfriend in a Coma — The Smiths": {
+  "id": 799980343,
+  "released": "1987",
+  "found": "Girlfriend In a Coma — The Smiths"
+ },
+ "Where the Streets Have No Name — U2": {
+  "id": 1443155640,
+  "released": "1987",
+  "found": "Where the Streets Have No Name — U2"
+ },
+ "I Still Haven't Found What I'm Looking For — U2": {
+  "id": 1442950019,
+  "released": "1987",
+  "found": "I Still Haven't Found What I'm Looking For — U2"
+ },
+ "The Living Daylights — a-ha": {
+  "id": 716413458,
+  "released": "1987",
+  "found": "The Living Daylights — a-ha"
+ },
+ "Always on My Mind — Pet Shop Boys": {
+  "id": 696889916,
+  "released": "1987",
+  "found": "Always On My Mind (2003 Remaster) — Pet Shop Boys"
+ },
+ "April Skies — The Jesus and Mary Chain": {
+  "id": 3731058,
+  "released": "1987",
+  "found": "April Skies — The Jesus and Mary Chain"
+ },
+ "Love Removal Machine — The Cult": {
+  "id": 1540684034,
+  "released": "1987",
+  "found": "Love Removal Machine — The Cult"
+ },
+ "No New Tale to Tell — Love and Rockets": {
+  "id": 7059867,
+  "released": "1987",
+  "found": "No New Tale to Tell — Love and Rockets"
+ },
+ "This Corrosion — The Sisters of Mercy": {
+  "id": 202274658,
+  "released": "1985",
+  "found": "This Corrosion — The Sisters of Mercy"
+ },
+ "Can't Hardly Wait — The Replacements": {
+  "id": 539969238,
+  "released": "1987",
+  "found": "Can't Hardly Wait — The Replacements"
+ },
+ "What's My Scene? — Hoodoo Gurus": {
+  "id": 298090008,
+  "released": "1987",
+  "found": "What's My Scene — Hoodoo Gurus"
+ },
+ "Crazy — Icehouse": {
+  "id": 541486676,
+  "released": "1987",
+  "found": "Crazy — ICEHOUSE"
+ },
+ "Something So Strong — Crowded House": {
+  "id": 1444120447,
+  "released": "1986",
+  "found": "Something So Strong — Crowded House"
+ },
+ "When Smokey Sings — ABC": {
+  "id": 1444014836,
+  "released": "1987",
+  "found": "When Smokey Sings — ABC"
+ },
+ "Somewhere in My Heart — Aztec Camera": {
+  "id": 516652008,
+  "released": "1987",
+  "found": "Somewhere in My Heart — Aztec Camera"
+ },
+ "Fairytale of New York — The Pogues": {
+  "id": 189255282,
+  "released": "1987",
+  "found": "Fairytale of New York — The Pogues"
+ },
+ "Don't Let's Start — They Might Be Giants": {
+  "id": 635917656,
+  "released": "1986",
+  "found": "Don't Let's Start — They Might Be Giants"
+ },
+ "Letter from America — The Proclaimers": {
+  "id": 697467589,
+  "released": "1987",
+  "found": "Letter from America — The Proclaimers"
+ },
+ "Like the Weather — 10,000 Maniacs": {
+  "id": 251007603,
+  "released": "1987",
+  "found": "Like the Weather — 10,000 Maniacs"
+ },
+ "I Heard a Rumour — Bananarama": {
+  "id": 1301440028,
+  "released": "1980",
+  "found": "I Heard a Rumour — Bananarama"
+ },
+ "Hazy Shade of Winter — The Bangles": {
+  "id": 1297035220,
+  "released": "1984",
+  "found": "Hazy Shade of Winter — The Bangles"
+ },
+ "Never Can Say Goodbye — The Communards": {
+  "id": 1320061729,
+  "released": "1987",
+  "found": "Never Can Say Goodbye — The Communards"
+ },
+ "Pop Goes the World — Men Without Hats": {
+  "id": 510100080,
+  "released": "1987",
+  "found": "Pop Goes The World — Men Without Hats"
+ },
+ "Running in the Family — Level 42": {
+  "id": 487062534,
+  "released": "1981",
+  "found": "Running In The Family — Level 42"
+ },
+ "Shattered Dreams — Johnny Hates Jazz": {
+  "id": 714893510,
+  "released": "1988",
+  "found": "Shattered Dreams — Johnny Hates Jazz"
+ },
+ "Labour of Love — Hue and Cry": {
+  "id": 724322378,
+  "released": "1987",
+  "found": "Labour of Love — Hue And Cry"
+ },
+ "Wishing I Was Lucky — Wet Wet Wet": {
+  "id": 1440861626,
+  "released": "1987",
+  "found": "Wishing I Was Lucky — Wet Wet Wet"
+ },
+ "Love Changes (Everything) — Climie Fisher": {
+  "id": 691819085,
+  "released": "1987",
+  "found": "Love Changes (Everything) — Climie Fisher"
+ },
+ "When Will I Be Famous? — Bros": {
+  "id": 316877919,
+  "released": "1987",
+  "found": "When Will I Be Famous? — Bros"
+ },
+ "Living in a Box — Living in a Box": {
+  "id": 1629177913,
+  "released": "1987",
+  "found": "Living in a Box — Living In A Box"
+ },
+ "Respectable — Mel & Kim": {
+  "id": 1776869124,
+  "released": "1987",
+  "found": "Respectable — Mel & Kim"
+ },
+ "Big Love — Fleetwood Mac": {
+  "id": 202272743,
+  "released": "1987",
+  "found": "Big Love — Fleetwood Mac"
+ },
+ "Everywhere — Fleetwood Mac": {
+  "id": 593328272,
+  "released": "1987",
+  "found": "Everywhere — Fleetwood Mac"
+ },
+ "Let's Go! — Wang Chung": {
+  "id": 1444091388,
+  "released": "1986",
+  "found": "Let's Go — Wang Chung"
+ },
+ "I've Been in Love Before — Cutting Crew": {
+  "id": 724598011,
+  "released": "1986",
+  "found": "I've Been in Love Before — Cutting Crew"
+ },
+ "Learning to Fly — Pink Floyd": {
+  "id": 1065974935,
+  "released": "1987",
+  "found": "Learning to Fly — Pink Floyd"
+ },
+ "Mandolin Rain — Bruce Hornsby and the Range": {
+  "id": 255953262,
+  "released": "1986",
+  "found": "Mandolin Rain — Bruce Hornsby & The Range"
+ },
+ "Wanted Dead or Alive — Bon Jovi": {
+  "id": 1422955215,
+  "released": "1986",
+  "found": "Wanted Dead or Alive — Bon Jovi"
+ },
+ "Hysteria — Def Leppard": {
+  "id": 1438626370,
+  "released": "1987",
+  "found": "Hysteria — Def Leppard"
+ },
+ "Is This Love — Whitesnake": {
+  "id": 1862662879,
+  "released": "1987",
+  "found": "Is This Love (2017 Remaster) — Whitesnake"
+ },
+ "Still of the Night — Whitesnake": {
+  "id": 1862662871,
+  "released": "1987",
+  "found": "Still Of The Night (2017 Remaster) — Whitesnake"
+ },
+ "Carrie — Europe": {
+  "id": 206154015,
+  "released": "1986",
+  "found": "Carrie — Europe"
+ },
+ "Wait — White Lion": {
+  "id": 1498592083,
+  "released": "1987",
+  "found": "Wait — White Lion"
+ },
+ "Dream Warriors — Dokken": {
+  "id": 1375523878,
+  "released": "1987",
+  "found": "Dream Warriors — Dokken"
+ },
+ "Honestly — Stryper": {
+  "id": 1440914648,
+  "released": "1986",
+  "found": "Honestly — Stryper"
+ },
+ "Crazy Crazy Nights — Kiss": {
+  "id": 1440819542,
+  "released": "1987",
+  "found": "Crazy Crazy Nights — Kiss"
+ },
+ "Always — Atlantic Starr": {
+  "id": 1625004615,
+  "released": "1986",
+  "found": "Always — Atlantic Starr"
+ },
+ "Don't Disturb This Groove — The System": {
+  "id": 1735071240,
+  "released": "1987",
+  "found": "Don't Disturb This Groove — The System"
+ },
+ "It's Tricky — Run-DMC": {
+  "id": 254344790,
+  "released": "1986",
+  "found": "It's Tricky — Run-DMC"
+ },
+ "No Sleep till Brooklyn — Beastie Boys": {
+  "id": 1440912354,
+  "released": "1986",
+  "found": "No Sleep Till Brooklyn — Beastie Boys"
+ },
+ "Brass Monkey — Beastie Boys": {
+  "id": 1440912369,
+  "released": "1986",
+  "found": "Brass Monkey — Beastie Boys"
+ },
+ "Bring the Noise — Public Enemy": {
+  "id": 197993185,
+  "released": "1966",
+  "found": "Bring the Noise — Public Enemy"
+ },
+ "Paid in Full — Eric B. & Rakim": {
+  "id": 1440841589,
+  "released": "1987",
+  "found": "Paid In Full — Eric B. & Rakim"
+ },
+ "The Way You Make Me Feel — Michael Jackson": {
+  "id": 273598922,
+  "released": "1987",
+  "found": "The Way You Make Me Feel — Michael Jackson"
+ },
+ "La Isla Bonita — Madonna": {
+  "id": 80815277,
+  "released": "1986",
+  "found": "La Isla Bonita — Madonna"
+ },
+ "Sign o' the Times — Prince": {
+  "id": 212974638,
+  "released": "1987",
+  "found": "Sign O' the Times — Prince"
+ },
+ "So Emotional — Whitney Houston": {
+  "id": 840431939,
+  "released": "1987",
+  "found": "So Emotional — Whitney Houston"
+ },
+ "I Want Your Sex — George Michael": {
+  "id": 1444196895,
+  "released": "1987",
+  "found": "I Want Your Sex — George Michael"
+ },
+ "Let's Wait Awhile — Janet Jackson": {
+  "id": 1440831866,
+  "released": "1986",
+  "found": "Let's Wait Awhile — Janet Jackson"
+ },
+ "Brilliant Disguise — Bruce Springsteen": {
+  "id": 1045058799,
+  "released": "1987",
+  "found": "Brilliant Disguise — Bruce Springsteen"
+ },
+ "Cherry Bomb — John Mellencamp": {
+  "id": 1440756196,
+  "released": "1987",
+  "found": "Cherry Bomb — John Cougar Mellencamp"
+ },
+ "We'll Be Together — Sting": {
+  "id": 1455400377,
+  "released": "1993",
+  "found": "We'll Be Together — Sting"
+ },
+ "Only in My Dreams — Debbie Gibson": {
+  "id": 1020909155,
+  "released": "1987",
+  "found": "Only In My Dreams — Debbie Gibson"
+ },
+ "Shake Your Love — Debbie Gibson": {
+  "id": 321974172,
+  "released": "1997",
+  "found": "Shake Your Love — Debbie Gibson"
+ },
+ "I Think We're Alone Now — Tiffany": {
+  "id": 1445466286,
+  "released": "1987",
+  "found": "I Think We're Alone Now — Tiffany"
+ },
+ "Could've Been — Tiffany": {
+  "id": 1440672673,
+  "released": "1987",
+  "found": "Could've Been — Tiffany"
+ },
+ "Wishing Well — Terence Trent D'Arby": {
+  "id": 318675390,
+  "released": "1987",
+  "found": "Wishing Well — Sananda Maitreya"
+ },
+ "Luka — Suzanne Vega": {
+  "id": 1444012618,
+  "released": "1987",
+  "found": "Luka — Suzanne Vega"
+ },
+ "I Should Be So Lucky — Kylie Minogue": {
+  "id": 1434579719,
+  "released": "1987",
+  "found": "I Should Be so Lucky — Kylie Minogue"
+ },
+ "The Loco-Motion — Kylie Minogue": {
+  "id": 1434579720,
+  "released": "1988",
+  "found": "The Loco-Motion — Kylie Minogue"
+ },
+ "Looking for a New Love — Jody Watley": {
+  "id": 1444095172,
+  "released": "1987",
+  "found": "Looking for a New Love — Jody Watley"
+ },
+ "Tell It to My Heart — Taylor Dayne": {
+  "id": 1709672818,
+  "released": "1987",
+  "found": "Tell It to My Heart — Taylor Dayne"
+ },
+ "I Found Someone — Cher": {
+  "id": 1445940912,
+  "released": "1987",
+  "found": "I Found Someone — Cher"
+ },
+ "Don't Mean Nothing — Richard Marx": {
+  "id": 716188756,
+  "released": "1987",
+  "found": "Don't Mean Nothing — Richard Marx"
+ },
+ "Should've Known Better — Richard Marx": {
+  "id": 716188715,
+  "released": "1987",
+  "found": "Should've Known Better — Richard Marx"
+ },
+ "I Need Love — LL Cool J": {
+  "id": 1443931203,
+  "released": "1987",
+  "found": "I Need Love — LL COOL J"
+ },
+ "Mandinka — Sinéad O'Connor": {
+  "id": 1629181907,
+  "released": "1987",
+  "found": "Mandinka — Sinéad O'Connor"
+ },
+ "Shakedown — Bob Seger": {
+  "id": 1440894312,
+  "released": "1987",
+  "found": "Shakedown — Bob Seger"
+ },
+ "Fine Time — New Order": {
+  "id": 439593506,
+  "released": "1988",
+  "found": "Fine Time — New Order"
+ },
+ "Orange Crush — R.E.M.": {
+  "id": 1440942178,
+  "released": "1988",
+  "found": "Orange Crush — R.E.M."
+ },
+ "Stand — R.E.M.": {
+  "id": 1440942006,
+  "released": "1988",
+  "found": "Stand — R.E.M."
+ },
+ "Desire — U2": {
+  "id": 1440729872,
+  "released": "1988",
+  "found": "Desire — U2"
+ },
+ "Devil Inside — INXS": {
+  "id": 1366411601,
+  "released": "1987",
+  "found": "Devil Inside — INXS"
+ },
+ "New Sensation — INXS": {
+  "id": 1587711998,
+  "released": "1987",
+  "found": "New Sensation — INXS"
+ },
+ "Domino Dancing — Pet Shop Boys": {
+  "id": 1318859655,
+  "released": "1988",
+  "found": "Domino Dancing — Pet Shop Boys"
+ },
+ "Chains of Love — Erasure": {
+  "id": 332852867,
+  "released": "1988",
+  "found": "Chains of Love — Erasure"
+ },
+ "Ship of Fools — Erasure": {
+  "id": 332852809,
+  "released": "1988",
+  "found": "Ship of Fools — Erasure"
+ },
+ "Lucretia My Reflection — The Sisters of Mercy": {
+  "id": 202274585,
+  "released": "1985",
+  "found": "Lucretia My Reflection — The Sisters of Mercy"
+ },
+ "Teen Age Riot — Sonic Youth": {
+  "id": 520335957,
+  "released": "1988",
+  "found": "Teen Age Riot — Sonic Youth"
+ },
+ "Freak Scene — Dinosaur Jr.": {
+  "id": null
+ },
+ "Crash — The Primitives": {
+  "id": 670653917,
+  "released": "1987",
+  "found": "Crash — The Primitives"
+ },
+ "I Want Your Love — Transvision Vamp": {
+  "id": 1444051722,
+  "released": "1988",
+  "found": "I Want Your Love — Transvision Vamp"
+ },
+ "There She Goes — The La's": {
+  "id": 1444167313,
+  "released": "1988",
+  "found": "There She Goes — The La's"
+ },
+ "Walking Away — Information Society": {
+  "id": 1604628183,
+  "released": "1988",
+  "found": "Walking Away — Information Society"
+ },
+ "What I Am — Edie Brickell & New Bohemians": {
+  "id": 1440916816,
+  "released": "1988",
+  "found": "What I Am — Edie Brickell & New Bohemians"
+ },
+ "The Race — Yello": {
+  "id": null
+ },
+ "I Beg Your Pardon — Kon Kan": {
+  "id": null
+ },
+ "Real Gone Kid — Deacon Blue": {
+  "id": 309679865,
+  "released": "1988",
+  "found": "Real Gone Kid — Deacon Blue"
+ },
+ "Good Life — Inner City": {
+  "id": 724914318,
+  "released": "1989",
+  "found": "Good Life — Inner City"
+ },
+ "Big Fun — Inner City": {
+  "id": 724914276,
+  "released": "1989",
+  "found": "Big Fun — Inner City"
+ },
+ "Theme from S-Express — S'Express": {
+  "id": null
+ },
+ "Look Away — Chicago": {
+  "id": 1792593271,
+  "released": "1985",
+  "found": "Look Away — Chicago"
+ },
+ "How Can I Fall? — Breathe": {
+  "id": 714953236,
+  "released": "1988",
+  "found": "How Can I Fall? — Breathe"
+ },
+ "Paradise — Sade": {
+  "id": 211676495,
+  "released": "1988",
+  "found": "Paradise — Sade"
+ },
+ "Listen to Your Heart — Roxette": {
+  "id": 1611169005,
+  "released": "1988",
+  "found": "Listen To Your Heart — Roxette"
+ },
+ "Armageddon It — Def Leppard": {
+  "id": 1438626360,
+  "released": "1987",
+  "found": "Armageddon It — Def Leppard"
+ },
+ "Love Bites — Def Leppard": {
+  "id": 1438626356,
+  "released": "1987",
+  "found": "Love Bites — Def Leppard"
+ },
+ "When It's Love — Van Halen": {
+  "id": 319580987,
+  "released": "1988",
+  "found": "When It's Love — Van Halen"
+ },
+ "Nothin' but a Good Time — Poison": {
+  "id": 1444491217,
+  "released": "1988",
+  "found": "Nothin' but a Good Time — Poison"
+ },
+ "Angel — Aerosmith": {
+  "id": 1440823557,
+  "released": "1987",
+  "found": "Angel — Aerosmith"
+ },
+ "Rag Doll — Aerosmith": {
+  "id": 1440823406,
+  "released": "1987",
+  "found": "Rag Doll — Aerosmith"
+ },
+ "When the Children Cry — White Lion": {
+  "id": 302118161,
+  "released": "1987",
+  "found": "When the Children Cry — White Lion"
+ },
+ "Seventeen — Winger": {
+  "id": 1727764582,
+  "released": "1988",
+  "found": "Seventeen — Winger"
+ },
+ "Don't Close Your Eyes — Kix": {
+  "id": null
+ },
+ "Little Walter — Tony! Toni! Toné!": {
+  "id": 1443509526,
+  "released": "1988",
+  "found": "Little Walter — Tony! Toni! Toné!"
+ },
+ "If It Isn't Love — New Edition": {
+  "id": 1440651296,
+  "released": "1988",
+  "found": "If It Isn't Love — New Edition"
+ },
+ "Please Don't Go Girl — New Kids on the Block": {
+  "id": 157300245,
+  "released": "1988",
+  "found": "Please Don't Go Girl — New Kids On the Block"
+ },
+ "Baby Don't Forget My Number — Milli Vanilli": {
+  "id": 215933384,
+  "released": "1988",
+  "found": "Baby Don't Forget My Number — Milli Vanilli"
+ },
+ "Groove Me — Guy": {
+  "id": 1452813553,
+  "released": "1988",
+  "found": "Groove Me — Guy"
+ },
+ "Don't Believe the Hype — Public Enemy": {
+  "id": 1443639394,
+  "released": "1988",
+  "found": "Don't Believe the Hype — Public Enemy"
+ },
+ "Straight Outta Compton — N.W.A": {
+  "id": 1478946359,
+  "released": "1988",
+  "found": "Straight Outta Compton — N.W.A"
+ },
+ "My Philosophy — Boogie Down Productions": {
+  "id": 1472441109,
+  "released": "1988",
+  "found": "My Philosophy — Boogie Down Productions"
+ },
+ "Parents Just Don't Understand — DJ Jazzy Jeff & The Fresh Prince": {
+  "id": 298554175,
+  "released": "1988",
+  "found": "Parents Just Don't Understand — DJ Jazzy Jeff & The Fresh Prince"
+ },
+ "Supersonic — J.J. Fad": {
+  "id": 79026613,
+  "released": "1988",
+  "found": "Supersonic — J.J. Fad"
+ },
+ "Smooth Criminal — Michael Jackson": {
+  "id": 159294551,
+  "released": "1987",
+  "found": "Smooth Criminal — Michael Jackson"
+ },
+ "Dirty Diana — Michael Jackson": {
+  "id": 273598924,
+  "released": "1987",
+  "found": "Dirty Diana — Michael Jackson"
+ },
+ "Where Do Broken Hearts Go — Whitney Houston": {
+  "id": 840431945,
+  "released": "1987",
+  "found": "Where Do Broken Hearts Go — Whitney Houston"
+ },
+ "Two Hearts — Phil Collins": {
+  "id": 1148701936,
+  "released": "1988",
+  "found": "Two Hearts — Phil Collins"
+ },
+ "Father Figure — George Michael": {
+  "id": 282658484,
+  "released": "1987",
+  "found": "Father Figure — George Michael"
+ },
+ "One More Try — George Michael": {
+  "id": 1877922397,
+  "released": "1987",
+  "found": "One More Try — George Michael"
+ },
+ "Monkey — George Michael": {
+  "id": 395918965,
+  "released": "1987",
+  "found": "Monkey — George Michael"
+ },
+ "Englishman in New York — Sting": {
+  "id": 1440882895,
+  "released": "1987",
+  "found": "Englishman In New York — Sting"
+ },
+ "Forever Young — Rod Stewart": {
+  "id": 295534136,
+  "released": "1988",
+  "found": "Forever Young — Rod Stewart"
+ },
+ "Circle in the Sand — Belinda Carlisle": {
+  "id": 1440716183,
+  "released": "1987",
+  "found": "Circle In the Sand — Belinda Carlisle"
+ },
+ "Foolish Beat — Debbie Gibson": {
+  "id": 73239254,
+  "released": "1997",
+  "found": "Foolish Beat — Debbie Gibson"
+ },
+ "Straight Up — Paula Abdul": {
+  "id": 723700423,
+  "released": "1988",
+  "found": "Straight Up — Paula Abdul"
+ },
+ "My Prerogative — Bobby Brown": {
+  "id": 1440773584,
+  "released": "1988",
+  "found": "My Prerogative — Bobby Brown"
+ },
+ "Don't Be Cruel — Bobby Brown": {
+  "id": 1440773580,
+  "released": "1988",
+  "found": "Don't Be Cruel — Bobby Brown"
+ },
+ "Together Forever — Rick Astley": {
+  "id": 1485596496,
+  "released": "1987",
+  "found": "Together Forever — Rick Astley"
+ },
+ "Simply Irresistible — Robert Palmer": {
+  "id": 734795139,
+  "released": "1988",
+  "found": "Simply Irresistible — Robert Palmer"
+ },
+ "Roll with It — Steve Winwood": {
+  "id": 724224008,
+  "released": "1988",
+  "found": "Roll With It — Steve Winwood"
+ },
+ "Giving You the Best That I Got — Anita Baker": {
+  "id": 300205055,
+  "released": "1988",
+  "found": "Giving You the Best That I Got — Anita Baker"
+ },
+ "Sign Your Name — Terence Trent D'Arby": {
+  "id": 250551892,
+  "released": "1987",
+  "found": "Sign Your Name — Sananda Maitreya"
+ },
+ "Talkin' 'bout a Revolution — Tracy Chapman": {
+  "id": 79565502,
+  "released": "1988",
+  "found": "Talkin' Bout a Revolution — Tracy Chapman"
+ },
+ "Get Outta My Dreams, Get into My Car — Billy Ocean": {
+  "id": 366965778,
+  "released": "1988",
+  "found": "Get Outta My Dreams, Get Into My Car — Billy Ocean"
+ },
+ "I Hate Myself for Loving You — Joan Jett & the Blackhearts": {
+  "id": 190178976,
+  "released": "1988",
+  "found": "I Hate Myself for Loving You — Joan Jett & The Blackhearts"
+ },
+ "Prove Your Love — Taylor Dayne": {
+  "id": 298425754,
+  "released": "1987",
+  "found": "Prove Your Love — Taylor Dayne"
+ },
+ "Hold On to the Nights — Richard Marx": {
+  "id": 716188769,
+  "released": "1987",
+  "found": "Hold On to the Nights — Richard Marx"
+ },
+ "Wild Thing — Tone Lōc": {
+  "id": 1442263412,
+  "released": "1989",
+  "found": "Wild Thing — Tone-Lōc"
+ },
+ "Going Back to Cali — LL Cool J": {
+  "id": 1442879953,
+  "released": "1987",
+  "found": "Going Back To Cali — LL COOL J"
+ },
+ "It Takes Two — Rob Base & DJ E-Z Rock": {
+  "id": 871784538,
+  "released": "1988",
+  "found": "It Takes Two — Rob Base & DJ EZ Rock"
+ },
+ "Buffalo Stance — Neneh Cherry": {
+  "id": 1440669336,
+  "released": "1988",
+  "found": "Buffalo Stance — Neneh Cherry"
+ },
+ "Suedehead — Morrissey": {
+  "id": 828247418,
+  "released": "1988",
+  "found": "Suedehead — Morrissey"
+ },
+ "Everyday Is Like Sunday — Morrissey": {
+  "id": 326624344,
+  "released": "1987",
+  "found": "Everyday Is Like Sunday — Morrissey"
+ },
+ "Pink Cadillac — Natalie Cole": {
+  "id": 1576786761,
+  "released": "1987",
+  "found": "Pink Cadillac (LP Version) — Natalie Cole"
+ },
+ "Kiss Me Deadly — Lita Ford": {
+  "id": 298272085,
+  "released": "1988",
+  "found": "Kiss Me Deadly — Lita Ford"
+ },
+ "Fascination Street — The Cure": {
+  "id": 371772245,
+  "released": "1989",
+  "found": "Fascination Street — The Cure"
+ },
+ "Sowing the Seeds of Love — Tears for Fears": {
+  "id": 1527554462,
+  "released": "1987",
+  "found": "Sowing The Seeds Of Love — Tears for Fears"
+ },
+ "Head On — The Jesus and Mary Chain": {
+  "id": 1808968698,
+  "released": "1989",
+  "found": "Head On — The Jesus and Mary Chain"
+ },
+ "Fire Woman — The Cult": {
+  "id": 1028832843,
+  "released": "1989",
+  "found": "Fire Woman — The Cult"
+ },
+ "I'll Be You — The Replacements": {
+  "id": 290652334,
+  "released": "1989",
+  "found": "I'll Be You — The Replacements"
+ },
+ "A Girl Like You — The Smithereens": {
+  "id": 724466017,
+  "released": "1989",
+  "found": "A Girl Like You — The Smithereens"
+ },
+ "She Bangs the Drums — The Stone Roses": {
+  "id": 325190114,
+  "released": "1989",
+  "found": "She Bangs the Drums — The Stone Roses"
+ },
+ "Monkey Gone to Heaven — Pixies": {
+  "id": 7060451,
+  "released": "1989",
+  "found": "Monkey Gone to Heaven — Pixies"
+ },
+ "Song for Whoever — The Beautiful South": {
+  "id": 1444032573,
+  "released": "1989",
+  "found": "Song for Whoever — The Beautiful South"
+ },
+ "Pure — The Lightning Seeds": {
+  "id": 1678162231,
+  "released": "1989",
+  "found": "Pure — The Lightning Seeds"
+ },
+ "Good Thing — Fine Young Cannibals": {
+  "id": 1313940403,
+  "released": "1988",
+  "found": "Good Thing — Fine Young Cannibals"
+ },
+ "Trouble Me — 10,000 Maniacs": {
+  "id": 298099294,
+  "released": "1989",
+  "found": "Trouble Me — 10,000 Maniacs"
+ },
+ "Mixed Emotions — The Rolling Stones": {
+  "id": 1440831654,
+  "released": "1989",
+  "found": "Mixed Emotions — The Rolling Stones"
+ },
+ "Dangerous — Roxette": {
+  "id": 1851251725,
+  "released": "1988",
+  "found": "Dangerous — Roxette"
+ },
+ "The Doctor — The Doobie Brothers": {
+  "id": 716227803,
+  "released": "1989",
+  "found": "The Doctor — The Doobie Brothers"
+ },
+ "I'll Be There for You — Bon Jovi": {
+  "id": 1440827237,
+  "released": "1987",
+  "found": "I'll Be There For You — Bon Jovi"
+ },
+ "Paradise City — Guns N' Roses": {
+  "id": 1377826748,
+  "released": "1987",
+  "found": "Paradise City — Guns N' Roses"
+ },
+ "Patience — Guns N' Roses": {
+  "id": 1377827086,
+  "released": "1988",
+  "found": "Patience — Guns N' Roses"
+ },
+ "Dr. Feelgood — Mötley Crüe": {
+  "id": 1764395683,
+  "released": "1989",
+  "found": "Dr. Feelgood — Mötley Crüe"
+ },
+ "Kickstart My Heart — Mötley Crüe": {
+  "id": 1764396024,
+  "released": "1989",
+  "found": "Kickstart My Heart — Mötley Crüe"
+ },
+ "Janie's Got a Gun — Aerosmith": {
+  "id": 1660109345,
+  "released": "1989",
+  "found": "Janie's Got a Gun — Aerosmith"
+ },
+ "Down Boys — Warrant": {
+  "id": 157402473,
+  "released": "1989",
+  "found": "Down Boys — Warrant"
+ },
+ "I Remember You — Skid Row": {
+  "id": 1727790519,
+  "released": "1989",
+  "found": "I Remember You — Skid Row"
+ },
+ "Headed for a Heartbreak — Winger": {
+  "id": 1727764757,
+  "released": "1988",
+  "found": "Headed for a Heartbreak — Winger"
+ },
+ "Once Bitten, Twice Shy — Great White": {
+  "id": 1673153680,
+  "released": "1989",
+  "found": "Once Bitten Twice Shy — Great White"
+ },
+ "Love Song — Tesla": {
+  "id": 1440909845,
+  "released": "1989",
+  "found": "Love Song — Tesla"
+ },
+ "Shower Me with Your Love — Surface": {
+  "id": 828338408,
+  "released": "1988",
+  "found": "Shower Me With Your Love — Surface"
+ },
+ "I'll Be Loving You (Forever) — New Kids on the Block": {
+  "id": 158803583,
+  "released": "1988",
+  "found": "I'll Be Loving You (Forever) — New Kids On the Block"
+ },
+ "Cover Girl — New Kids on the Block": {
+  "id": 286642661,
+  "released": "1986",
+  "found": "Cover Girl — New Kids On the Block"
+ },
+ "Blame It on the Rain — Milli Vanilli": {
+  "id": 215933485,
+  "released": "1989",
+  "found": "Blame It On the Rain — Milli Vanilli"
+ },
+ "Girl I'm Gonna Miss You — Milli Vanilli": {
+  "id": 1708319209,
+  "released": "2023",
+  "found": "Girl I'm Gonna Miss You (US Single Version) — Milli Vanilli"
+ },
+ "Hey Ladies — Beastie Boys": {
+  "id": 1471582747,
+  "released": "1989",
+  "found": "Hey Ladies — Beastie Boys"
+ },
+ "Expression — Salt-N-Pepa": {
+  "id": 1478457373,
+  "released": "1990",
+  "found": "Expression — Salt-N-Pepa"
+ },
+ "Eye Know — De La Soul": {
+  "id": 1657705231,
+  "released": "1989",
+  "found": "Eye Know (feat. Otis Redding) — De La Soul"
+ },
+ "Express Yourself — Madonna": {
+  "id": 329064716,
+  "released": "1989",
+  "found": "Express Yourself — Madonna"
+ },
+ "Batdance — Prince": {
+  "id": 213038881,
+  "released": "1989",
+  "found": "Batdance — Prince"
+ },
+ "Rhythm Nation — Janet Jackson": {
+  "id": 1440838749,
+  "released": "1989",
+  "found": "Rhythm Nation — Janet Jackson"
+ },
+ "The Best — Tina Turner": {
+  "id": 697409668,
+  "released": "1989",
+  "found": "The Best — Tina Turner"
+ },
+ "Lost in Your Eyes — Debbie Gibson": {
+  "id": 73239296,
+  "released": "1989",
+  "found": "Lost In Your Eyes — Debbie Gibson"
+ },
+ "Forever Your Girl — Paula Abdul": {
+  "id": 723700416,
+  "released": "1988",
+  "found": "Forever Your Girl — Paula Abdul"
+ },
+ "Opposites Attract — Paula Abdul": {
+  "id": 724269310,
+  "released": "1988",
+  "found": "Opposites Attract — Paula Abdul"
+ },
+ "Every Little Step — Bobby Brown": {
+  "id": 1452867483,
+  "released": "1988",
+  "found": "Every Little Step — Bobby Brown"
+ },
+ "Real Love — Jody Watley": {
+  "id": 1444090524,
+  "released": "1989",
+  "found": "Real Love — Jody Watley"
+ },
+ "If I Could Turn Back Time — Cher": {
+  "id": 1440905221,
+  "released": "1989",
+  "found": "If I Could Turn Back Time — Cher"
+ },
+ "Right Here Waiting — Richard Marx": {
+  "id": 724490044,
+  "released": "1989",
+  "found": "Right Here Waiting — Richard Marx"
+ },
+ "How Am I Supposed to Live Without You — Michael Bolton": {
+  "id": 160022631,
+  "released": "1966",
+  "found": "How Am I Supposed to Live Without You — Michael Bolton"
+ },
+ "Funky Cold Medina — Tone Lōc": {
+  "id": 1442263419,
+  "released": "1987",
+  "found": "Funky Cold Medina — Tone-Lōc"
+ },
+ "Bust a Move — Young MC": {
+  "id": 1440901302,
+  "released": "1989",
+  "found": "Bust a Move — Young MC"
+ },
+ "All Around the World — Lisa Stansfield": {
+  "id": 1719228526,
+  "released": "1988",
+  "found": "All Around the World — Lisa Stansfield"
+ },
+ "Poison — Alice Cooper": {
+  "id": 278787655,
+  "released": "1989",
+  "found": "Poison — Alice Cooper"
+ },
+ "Toy Soldiers — Martika": {
+  "id": 1459135021,
+  "released": "1988",
+  "found": "Toy Soldiers — Martika"
+ },
+ "R.O.C.K. in the U.S.A. (A Salute to 60's Rock) — John Mellencamp": {
+  "id": 1440918953,
+  "released": "1985",
+  "found": "R.O.C.K. In the U.S.A. (A Salute to 60's Rock) — John Cougar Mellencamp"
+ },
+ "Working in a Coalmine — Devo": {
+  "id": 335284910,
+  "released": "1981",
+  "found": "Working In a Coalmine — Devo"
+ },
+ "Mirror in the Bathroom — The Beat": {
+  "id": 1186062803,
+  "released": "2008",
+  "found": "Mirror in the Bathroom — Special Beat"
+ },
+ "(We Don't Need This) Fascist Groove Thang — Heaven 17": {
+  "id": 714605222,
+  "released": "1981",
+  "found": "(We Don't Need This) Fascist Groove Thang — Heaven 17"
+ },
+ "For Those About to Rock (We Salute You) — AC/DC": {
+  "id": 574055178,
+  "released": "1981",
+  "found": "For Those About to Rock (We Salute You) — AC/DC"
+ },
+ "Arthur's Theme (Best That You Can Do) — Christopher Cross": {
+  "id": 273426183,
+  "released": "1981",
+  "found": "Arthur's Theme (Best That You Can Do) — Christopher Cross"
+ },
+ "I Eat Cannibals — Toto Coelo": {
+  "id": null
+ },
+ "99 Luftballons — Nena": {
+  "id": 1446013598,
+  "released": "1983",
+  "found": "99 Luftballons — Nena"
+ },
+ "You Spin Me Round (Like a Record) — Dead or Alive": {
+  "id": 187305118,
+  "released": "1984",
+  "found": "You Spin Me Round (Like a Record) — Dead or Alive"
+ },
+ "Money's Too Tight (To Mention) — Simply Red": {
+  "id": 294361562,
+  "released": "1985",
+  "found": "Money's Too Tight (To Mention) — Simply Red"
+ },
+ "Headhunter — Front 242": {
+  "id": 717096162,
+  "released": "2011",
+  "found": "Headhunter — Front 242"
+ },
+ "Hallelujah — Happy Mondays": {
+  "id": 1848092924,
+  "released": "1987",
+  "found": "Hallelujah (2025 Remaster) — Happy Mondays"
  }
 }
