@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>I Love the 80's!</title>
+  <meta name="description" content="Hear an 80s hit, name the band. A party music game.">
+  <meta name="theme-color" content="#0d0221">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="I Love the 80's">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Setup -->
+  <section id="setupScreen" class="screen">
+    <header class="hero">
+      <div class="sun" aria-hidden="true"></div>
+      <h1><span class="love">I Love the</span> <span class="chrome">80's!</span></h1>
+      <p class="tagline">Hear a hit. Name the band.</p>
+    </header>
+
+    <main>
+      <button id="resumeBtn" class="primary wide" hidden>Resume game</button>
+
+      <div class="card">
+        <h2>Players</h2>
+        <ul id="playerList" class="player-list"></ul>
+        <form id="addPlayerForm" class="add-row">
+          <input id="newPlayer" type="text" maxlength="20" placeholder="Add a player" aria-label="Player name" autocomplete="off" enterkeyhint="done">
+          <button class="secondary" type="submit">Add</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Game</h2>
+        <div class="segmented wide" role="group" aria-label="Game type">
+          <button type="button" data-mode="choice">Pick the band</button>
+          <button type="button" data-mode="shout">Shout it out</button>
+        </div>
+        <p id="modeHelp" class="help"></p>
+        <div class="field">
+          <span id="lengthLabel" class="field-label">Rounds</span>
+          <div class="segmented" role="group" id="lengthGroup"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Years</h2>
+        <div class="segmented wide" role="group" aria-label="Years">
+          <button type="button" data-era="all">All the 80s</button>
+          <button type="button" data-era="early">1980–84</button>
+          <button type="button" data-era="late">1985–89</button>
+        </div>
+        <p id="songCount" class="help"></p>
+      </div>
+
+      <button id="startBtn" class="primary wide big">Start game</button>
+      <button id="howBtn" class="ghost wide">How to play</button>
+    </main>
+  </section>
+
+  <!-- A turn -->
+  <section id="playScreen" class="screen" hidden>
+    <header class="topbar">
+      <button id="quitBtn" class="ghost" aria-label="End game">✕</button>
+      <p id="roundLabel" class="round-label"></p>
+      <span class="topbar-spacer"></span>
+    </header>
+
+    <main>
+      <ul id="scoreboard" class="scoreboard"></ul>
+      <p id="turnLabel" class="turn-label"></p>
+
+      <!-- The song: the band is hidden while guessing, revealed afterwards -->
+      <div id="songCard" class="song-card">
+        <div class="cassette" id="cassette">
+          <p class="tape-label" id="tapeLabel">Mystery Mix</p>
+          <div class="tape-window"><span class="reel"></span><span class="reel"></span></div>
+        </div>
+        <div class="song-info">
+          <img id="art" alt="" hidden>
+          <div class="song-text">
+            <p id="songBand" class="song-band">???</p>
+            <p id="songTitle" class="song-title">Who's the band?</p>
+            <p id="songYear" class="song-year"></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="player" class="player">
+        <button id="playBtn" class="play-btn" aria-label="Play">
+          <span class="icon-play"></span>
+        </button>
+        <div class="progress"><span id="progressBar"></span></div>
+        <p id="playerNote" class="help center"></p>
+      </div>
+
+      <!-- Pick the band: four bands to choose from -->
+      <div id="choicePanel" hidden>
+        <p class="panel-title" id="choiceTitle"></p>
+        <ul id="choices" class="choices"></ul>
+      </div>
+
+      <!-- Shout it out: after the reveal, mark who named the band -->
+      <div id="shoutPanel" hidden>
+        <p class="panel-title" id="shoutTitle"></p>
+        <ul id="shoutList" class="shout-list"></ul>
+      </div>
+
+      <p id="resultLabel" class="result" hidden></p>
+
+      <div class="actions">
+        <button id="lockBtn" class="primary wide big" disabled>Lock it in</button>
+        <button id="nextBtn" class="primary wide big" hidden>Next song</button>
+      </div>
+    </main>
+  </section>
+
+  <!-- Winner -->
+  <section id="winScreen" class="screen" hidden>
+    <main class="win">
+      <p class="trophy" aria-hidden="true">🏆</p>
+      <h1 id="winnerName"></h1>
+      <p id="winnerNote" class="tagline"></p>
+      <ol id="standings" class="standings"></ol>
+      <button id="againBtn" class="primary wide big">Play again</button>
+      <button id="newGameBtn" class="ghost wide">Change players or settings</button>
+    </main>
+  </section>
+
+  <!-- How to play -->
+  <dialog id="howDialog" class="sheet">
+    <form method="dialog">
+      <p class="sheet-title">How to play</p>
+      <div class="sheet-body">
+        <p><strong>Pick the band.</strong> Take turns. On your turn an 80s hit plays and you pick the band from four choices. Each right answer scores a point. Most points after the last round wins.</p>
+        <p><strong>Shout it out.</strong> A song plays and everyone shouts out the band. Tap reveal, then tap everyone who got it right. Each right answer scores a point.</p>
+        <p><strong>Music.</strong> Each song plays as a 30-second clip with the band and title hidden until the guesses are in. No account needed, just an internet connection.</p>
+      </div>
+      <button value="ok" class="primary wide">Totally!</button>
+    </form>
+  </dialog>
+
+  <!-- Are-you-sure prompt -->
+  <dialog id="confirmDialog" class="sheet">
+    <form method="dialog">
+      <p class="sheet-title">End this game?</p>
+      <p class="sheet-message">Scores will be lost.</p>
+      <div class="sheet-row">
+        <button value="cancel" class="secondary">Keep playing</button>
+        <button value="ok" class="danger">End game</button>
+      </div>
+    </form>
+  </dialog>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

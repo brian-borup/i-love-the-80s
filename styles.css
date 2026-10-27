@@ -1,0 +1,410 @@
+/* Neon-on-midnight, like a synthwave album cover. Always dark. */
+:root {
+  --bg: #0d0221;
+  --surface: #1a0b3a;
+  --surface-2: #2a1458;
+  --text: #fdf4ff;
+  --muted: #b9a3d9;
+  --border: #3d2470;
+  --primary: #ff2e97;        /* hot pink for filled highlights */
+  --primary-text: #24001a;   /* near-black reads well on the pink */
+  --link: #5ce1ff;
+  --neon: #00e5ff;           /* electric cyan for band names */
+  --accent: #ffd319;         /* sunshine yellow for points */
+  --good: #39ff88;
+  --bad: #ff4d6d;
+  --danger: #ff3860;
+  --radius: 16px;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100dvh;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background:
+    radial-gradient(ellipse 120% 60% at 50% 0%, rgb(255 46 151 / 0.18), transparent 70%),
+    var(--bg);
+}
+
+/* A neon grid fading into the horizon along the bottom of the screen. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: auto -50% 0;
+  height: 38vh;
+  z-index: -1;
+  background:
+    linear-gradient(to bottom, var(--bg), transparent 45%),
+    repeating-linear-gradient(to right, rgb(255 46 151 / 0.35) 0 2px, transparent 2px 60px),
+    repeating-linear-gradient(to bottom, rgb(255 46 151 / 0.35) 0 2px, transparent 2px 40px);
+  transform: perspective(300px) rotateX(55deg);
+  transform-origin: bottom;
+  pointer-events: none;
+}
+
+button, input, select { font: inherit; color: inherit; }
+
+button {
+  touch-action: manipulation;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  background: var(--surface-2);
+  user-select: none;
+  -webkit-user-select: none;
+}
+button:active:not(:disabled) { transform: scale(0.97); }
+button:disabled { opacity: 0.45; cursor: default; }
+[hidden] { display: none !important; }
+
+.primary { background: var(--primary); color: var(--primary-text); box-shadow: 0 0 18px rgb(255 46 151 / 0.45); }
+.primary:disabled { box-shadow: none; }
+.secondary { background: var(--surface-2); }
+.danger { background: var(--danger); color: #fff; }
+.ghost { background: transparent; color: var(--link); }
+.wide { width: 100%; }
+.big { padding: 16px; font-size: 1.1rem; }
+.center { text-align: center; }
+
+main { padding: 0 16px 24px; max-width: 560px; margin: 0 auto; display: grid; gap: 14px; }
+
+/* Setup */
+.hero { text-align: center; padding: 28px 16px 18px; }
+.hero h1 { margin: 14px 0 6px; line-height: 0.95; display: grid; }
+.love {
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: var(--primary);
+  text-shadow: 0 0 6px var(--primary), 0 0 18px rgb(255 46 151 / 0.7);
+  transform: rotate(-4deg);
+}
+.chrome {
+  font-size: 4.2rem;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  background: linear-gradient(to bottom, #e9f8ff 0%, #8fd8ff 45%, #1b2a6b 50%, #7a5cff 70%, #ffc6f0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 10px rgb(0 229 255 / 0.45));
+}
+.tagline { margin: 0; color: var(--muted); }
+
+/* A striped synthwave sunset */
+.sun {
+  width: 96px;
+  height: 48px;
+  margin: 0 auto;
+  border-radius: 96px 96px 0 0;
+  background: linear-gradient(to bottom, #ffd319, #ff8c2e 45%, #ff2e97);
+  -webkit-mask: linear-gradient(to bottom, #000 0 50%, transparent 50% 56%, #000 56% 68%, transparent 68% 74%, #000 74% 83%, transparent 83% 89%, #000 89%);
+  mask: linear-gradient(to bottom, #000 0 50%, transparent 50% 56%, #000 56% 68%, transparent 68% 74%, #000 74% 83%, transparent 83% 89%, #000 89%);
+  filter: drop-shadow(0 0 14px rgb(255 140 46 / 0.6));
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+.card h2 { margin: 0; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--neon); }
+.help { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+
+.player-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.player-list:empty::before { content: "Add at least one player."; color: var(--muted); font-size: 0.9rem; }
+.player-list li {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-left: 12px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  font-weight: 600;
+}
+.player-list button { padding: 8px 12px; background: transparent; color: var(--muted); border-radius: 999px; }
+
+.add-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
+input[type="text"] {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 16px; /* prevents iOS zoom on focus */
+}
+
+.segmented {
+  display: inline-flex;
+  padding: 3px;
+  border-radius: 12px;
+  background: var(--surface-2);
+}
+.segmented.wide { display: flex; }
+.segmented button {
+  flex: 1;
+  padding: 9px 6px;
+  border-radius: 9px;
+  white-space: nowrap;
+  background: transparent;
+  color: var(--muted);
+}
+.segmented button[aria-pressed="true"] { background: var(--primary); color: var(--primary-text); }
+
+.field { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.field-label { font-weight: 600; }
+.field .segmented button { padding: 9px 14px; }
+
+/* Turn */
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 8px 0; }
+.topbar .ghost { width: 48px; font-size: 1.2rem; color: var(--muted); }
+.topbar-spacer { width: 48px; }
+.round-label { margin: 0; font-weight: 700; color: var(--muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+.scoreboard {
+  list-style: none;
+  margin: 0;
+  padding: 2px 0;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.scoreboard li {
+  flex: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--surface);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 2px solid transparent;
+}
+.scoreboard li.current { border-color: var(--primary); box-shadow: 0 0 10px rgb(255 46 151 / 0.5); }
+.scoreboard .pts { color: var(--accent); font-variant-numeric: tabular-nums; }
+.missed { color: var(--bad); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.turn-label { margin: 0; text-align: center; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; }
+
+.song-card {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* A cassette tape whose reels turn while the song plays */
+.cassette {
+  position: relative;
+  width: min(100%, 280px);
+  aspect-ratio: 1.6;
+  margin: 0 auto;
+  padding: 7% 7% 0;
+  border-radius: 12px;
+  background: linear-gradient(160deg, #3a2a5c, #1c1233);
+  box-shadow: inset 0 0 0 2px rgb(255 255 255 / 0.06), 0 8px 24px rgb(0 0 0 / 0.4);
+}
+.cassette::after {
+  /* the trapezoid at the bottom edge */
+  content: "";
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  bottom: 0;
+  height: 16%;
+  background: #120a24;
+  clip-path: polygon(8% 0, 92% 0, 100% 100%, 0 100%);
+}
+.tape-label {
+  margin: 0;
+  height: 62%;
+  padding: 6% 8% 0;
+  border-radius: 6px;
+  background:
+    linear-gradient(to bottom, transparent 0 22%, var(--primary) 22% 30%, transparent 30% 34%, #ff8c2e 34% 40%, transparent 40%),
+    #fdf4ff;
+  color: #2a1458;
+  font-family: "Segoe Print", "Bradley Hand", "Marker Felt", cursive;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tape-window {
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  top: 40%;
+  height: 26%;
+  border-radius: 999px;
+  background: #120a24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+.reel {
+  height: 80%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #120a24 0 22%, transparent 23%),
+    repeating-conic-gradient(#fdf4ff 0 12deg, transparent 12deg 60deg);
+}
+.cassette.playing .reel { animation: spin 2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.song-info { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.song-info img { width: 72px; height: 72px; border-radius: 8px; object-fit: cover; flex: none; }
+.song-text { min-width: 0; flex: 1; text-align: center; }
+.song-card.revealed .song-text { text-align: left; }
+.song-text p { margin: 0; }
+.song-band {
+  font-size: 1.9rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--neon);
+  text-shadow: 0 0 10px rgb(0 229 255 / 0.6);
+  overflow-wrap: anywhere;
+}
+.song-title { margin-top: 4px !important; font-weight: 600; }
+.song-year { color: var(--muted); font-variant-numeric: tabular-nums; }
+.song-card.revealed .song-band { animation: pop 0.4s ease-out; }
+@keyframes pop { 0% { transform: scale(0.6); opacity: 0; } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
+
+.player { display: grid; gap: 10px; justify-items: center; }
+.play-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--primary);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 22px rgb(255 46 151 / 0.6);
+}
+.icon-play {
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  border-style: solid;
+  border-width: 14px 0 14px 22px;
+  border-color: transparent transparent transparent var(--primary-text);
+}
+.play-btn.playing .icon-play {
+  width: 22px;
+  height: 26px;
+  margin: 0;
+  border: none;
+  border-left: 7px solid var(--primary-text);
+  border-right: 7px solid var(--primary-text);
+}
+.play-btn.loading { opacity: 0.6; }
+.progress { width: 100%; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+.progress span { display: block; height: 100%; width: 0; background: linear-gradient(to right, var(--primary), var(--neon)); transition: width 0.25s linear; }
+
+.panel-title { margin: 4px 0 8px; font-weight: 700; color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* Pick the band */
+.choices { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.choice {
+  width: 100%;
+  min-height: 64px;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  line-height: 1.2;
+}
+.choice[aria-pressed="true"] { border-color: var(--primary); background: rgb(255 46 151 / 0.15); box-shadow: 0 0 12px rgb(255 46 151 / 0.4); }
+.choices.locked .choice:disabled { opacity: 0.45; }
+.choices.locked .choice.right { opacity: 1; border-color: var(--good); color: var(--good); box-shadow: 0 0 12px rgb(57 255 136 / 0.4); animation: pop 0.4s ease-out; }
+.choices.locked .choice.wrong { opacity: 1; border-color: var(--bad); color: var(--bad); text-decoration: line-through; }
+
+/* Shout it out: tap everyone who named the band */
+.shout-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.shout {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  text-align: left;
+}
+.shout .name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.shout .mark { color: var(--muted); font-weight: 600; font-size: 0.9rem; }
+.shout[aria-pressed="true"] { border-color: var(--good); }
+.shout[aria-pressed="true"] .mark { color: var(--good); font-weight: 800; font-size: 1rem; }
+
+.result { margin: 0; text-align: center; font-size: 1.2rem; font-weight: 800; }
+.result.good { color: var(--good); }
+.result.bad { color: var(--bad); }
+
+.actions { display: grid; gap: 10px; }
+
+/* During play, keep Lock it in / Next song on screen however long the page gets. */
+#playScreen .actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  margin: 0 -16px -24px;
+  padding: 20px 16px calc(16px + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, transparent, var(--bg) 20px);
+}
+
+/* Winner */
+.win { text-align: center; padding-top: 48px; }
+.trophy { font-size: 4.5rem; margin: 0; animation: pop 0.6s ease-out; }
+.win h1 { margin: 0; font-size: 2rem; color: var(--neon); text-shadow: 0 0 12px rgb(0 229 255 / 0.6); }
+.standings { list-style: none; margin: 8px 0; padding: 0; display: grid; gap: 6px; text-align: left; }
+.standings li { display: flex; justify-content: space-between; padding: 12px 16px; border-radius: 12px; background: var(--surface); font-weight: 600; }
+.standings li:first-child { outline: 2px solid var(--accent); }
+.standings .pts { color: var(--accent); }
+.standing-scores { display: flex; gap: 12px; align-items: baseline; }
+.standing-scores .missed { font-size: 0.85rem; }
+
+/* Bottom sheet */
+.sheet {
+  width: 100%;
+  max-width: 560px;
+  margin: auto auto 0;
+  padding: 20px 16px calc(16px + env(safe-area-inset-bottom));
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background: var(--surface);
+  color: var(--text);
+}
+.sheet::backdrop { background: rgb(0 0 0 / 0.6); }
+.sheet form { display: grid; gap: 12px; }
+.sheet-title { margin: 0; font-size: 1.15rem; font-weight: 700; text-align: center; }
+.sheet-message { margin: 0 0 4px; text-align: center; color: var(--muted); line-height: 1.4; }
+.sheet-body p { margin: 0 0 10px; line-height: 1.45; }
+.sheet-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
