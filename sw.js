@@ -1,5 +1,5 @@
 // Bump this version whenever app files change so phones pick up the update.
-const CACHE = 'i-love-the-80s-v1';
+const CACHE = 'i-love-the-80s-v2';
 const FILES = [
   './',
   'index.html',
