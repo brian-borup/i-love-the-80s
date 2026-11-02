@@ -61,8 +61,6 @@ const song = (i) => {
 };
 const ARTISTS = [...new Set(SONGS.map((s) => s[2]))];
 
-const ERAS = { all: [1980, 1989], early: [1980, 1984], late: [1985, 1989] };
-
 // Pick the artist: rounds each player gets. Shout it out: songs in the game.
 const LENGTHS = { choice: [5, 10, 20], shout: [10, 20, 30] };
 
@@ -72,7 +70,7 @@ const MODE_HELP = {
 };
 
 // ---- State ----
-// settings: { players: [name], mode: 'choice' | 'shout', length: { choice, shout }, era }
+// settings: { players: [name], mode: 'choice' | 'shout', length: { choice, shout } }
 // game (while playing): {
 //   mode, target, players: [{ name, score, missed }],
 //   deck: [songIndex], turn, round, current: songIndex,
@@ -80,13 +78,14 @@ const MODE_HELP = {
 
 function loadState() {
   const fresh = {
-    settings: { players: [], mode: 'choice', length: { choice: 10, shout: 20 }, era: 'all' },
+    settings: { players: [], mode: 'choice', length: { choice: 10, shout: 20 } },
     game: null,
   };
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
     if (saved && saved.settings) {
       const settings = { ...fresh.settings, ...saved.settings };
+      delete settings.era; // from when you could pick 1980–84 or 1985–89
       // A length that's no longer offered goes back to the default.
       for (const mode of Object.keys(LENGTHS)) {
         if (!LENGTHS[mode].includes(settings.length[mode])) settings.length[mode] = fresh.settings.length[mode];
@@ -112,11 +111,6 @@ const shuffle = (list) => {
   }
   return list;
 };
-
-function songsInRange() {
-  const [from, to] = ERAS[state.settings.era];
-  return SONGS.map((_, i) => i).filter((i) => SONGS[i][0] >= from && SONGS[i][0] <= to);
-}
 
 // The right artist plus three others, in random order.
 function artistOptions(i) {
@@ -312,13 +306,10 @@ function renderSetup() {
     return b;
   }));
 
-  for (const b of $$('[data-era]')) b.setAttribute('aria-pressed', String(b.dataset.era === settings.era));
-
-  const count = songsInRange().length;
+  const count = SONGS.length;
   const needed = neededSongs();
-  const [from, to] = ERAS[settings.era];
-  els.songCount.textContent = `${count} songs from ${from} to ${to}.`
-    + (count < needed ? ` That's not enough for this game; pick fewer rounds or more years.` : '');
+  els.songCount.textContent = `${count.toLocaleString('en-US')} songs from the 80s.`
+    + (count < needed ? ` That's not enough for this game; pick fewer rounds.` : '');
   els.startBtn.disabled = settings.players.length === 0 || count < needed;
 
   els.resumeBtn.hidden = !(state.game && !state.game.over);
@@ -348,14 +339,6 @@ for (const b of $$('[data-mode]')) {
   });
 }
 
-for (const b of $$('[data-era]')) {
-  b.addEventListener('click', () => {
-    state.settings.era = b.dataset.era;
-    save();
-    renderSetup();
-  });
-}
-
 els.howBtn.addEventListener('click', () => els.howDialog.showModal());
 els.startBtn.addEventListener('click', startGame);
 els.resumeBtn.addEventListener('click', () => {
@@ -366,10 +349,19 @@ els.resumeBtn.addEventListener('click', () => {
 
 // ---- Game ----
 
+// The first song of the next game, picked and fetched ahead of time so it can
+// start playing straight from the Start game tap (iOS only allows audio to
+// start directly from a tap).
+const randomSong = () => Math.floor(Math.random() * SONGS.length);
+let nextFirst = randomSong();
+getMedia(nextFirst).catch(() => {});
+
 function startGame() {
   const { settings } = state;
-  const deck = shuffle(songsInRange());
-  const current = deck.pop();
+  const current = nextFirst;
+  const deck = shuffle(SONGS.map((_, i) => i).filter((i) => i !== current));
+  nextFirst = randomSong();
+  getMedia(nextFirst).catch(() => {});
   state.game = {
     mode: settings.mode,
     target: settings.length[settings.mode],
@@ -388,6 +380,7 @@ function startGame() {
   save();
   show(els.playScreen);
   renderPlay();
+  autoplay = true;
   loadCurrentSong();
 }
 

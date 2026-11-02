@@ -10,7 +10,7 @@ On an iPhone, open that link in Safari, tap **Share → Add to Home Screen**. It
 
 - **Pick the artist:** take turns. On your turn a mystery song plays and you pick the band or singer from four choices. A right answer scores a point. Most points after the last round wins.
 - **Shout it out:** a song plays and everyone shouts out the artist. Tap **Reveal the artist**, then tap everyone who got it right. Each right answer scores a point.
-- Play songs from all of the 80s, or just 1980–84 or 1985–89.
+- Every game draws from the whole song list, and the first song starts as soon as you tap **Start game**.
 
 ## Music
 
